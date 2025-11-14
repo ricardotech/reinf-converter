@@ -1,0 +1,5405 @@
+<?xml version="1.0" ?>
+<Reinf>
+  <evt4010>
+    <ideEvento>
+      <indRetif>1</indRetif>
+      <perApur>2025-01</perApur>
+      <tpAmb>1</tpAmb>
+      <procEmi>1</procEmi>
+      <verProc>1.0</verProc>
+    </ideEvento>
+    <ideContri>
+      <tpInsc>1</tpInsc>
+      <nrInsc>nan</nrInsc>
+    </ideContri>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19239260000142</CNPJ_Benef>
+        <nmBenef>ADSON ALMEIDA DE OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-8.755</vlrBruto>
+          <vlrBaseIR>-8.755</vlrBaseIR>
+          <vlrIR>-0.131325</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17746072000185</CNPJ_Benef>
+        <nmBenef>PREMIATTA PIZZA E GELADOS DO BRASIL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.661471</vlrBruto>
+          <vlrBaseIR>5.661471</vlrBaseIR>
+          <vlrIR>0.08492206499999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>53912155000160</CNPJ_Benef>
+        <nmBenef>SANDMEIER COMERCIO DE CALCADOS E ACESSORIOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>36.187054</vlrBruto>
+          <vlrBaseIR>36.187054</vlrBaseIR>
+          <vlrIR>0.54280581</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40841911000166</CNPJ_Benef>
+        <nmBenef>VIA MADUREIRA COMERCIO DE CALCADOS E ACESSORIOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>55.49516</vlrBruto>
+          <vlrBaseIR>55.49516</vlrBaseIR>
+          <vlrIR>0.8324273999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>10883824000100</CNPJ_Benef>
+        <nmBenef>VIA URCA COMERCIO DE CALÇADOS E ASSECORIOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>88.86148</vlrBruto>
+          <vlrBaseIR>88.86148</vlrBaseIR>
+          <vlrIR>1.3329222</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32844532000100</CNPJ_Benef>
+        <nmBenef>Colegio Pro Mundo LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1724.6</vlrBruto>
+          <vlrBaseIR>-1724.6</vlrBaseIR>
+          <vlrIR>-25.869</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>14915080000110</CNPJ_Benef>
+        <nmBenef>COMERCIAL BOMFIM &amp; SOUZA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1439.735</vlrBruto>
+          <vlrBaseIR>-1439.735</vlrBaseIR>
+          <vlrIR>-21.596025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>10972372000133</CNPJ_Benef>
+        <nmBenef>COMERCIAL DE CARNES E MERCEARIA ARAUJO EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1089.135</vlrBruto>
+          <vlrBaseIR>-1089.135</vlrBaseIR>
+          <vlrIR>-16.337025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31367681000154</CNPJ_Benef>
+        <nmBenef>COMERCIAL S S VARIEDADE DE CAMA MESA E BANHO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-2125.505</vlrBruto>
+          <vlrBaseIR>-2125.505</vlrBaseIR>
+          <vlrIR>-31.882575</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52827601000176</CNPJ_Benef>
+        <nmBenef> JSD COMERCIO DE CONFECCOES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>41.125812</vlrBruto>
+          <vlrBaseIR>41.125812</vlrBaseIR>
+          <vlrIR>0.61688718</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>45442703000108</CNPJ_Benef>
+        <nmBenef>45.442.703 LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>49.14705</vlrBruto>
+          <vlrBaseIR>49.14705</vlrBaseIR>
+          <vlrIR>0.73720575</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50458061000175</CNPJ_Benef>
+        <nmBenef>50.458.061 MARILSON RODRIGUES MACEDO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>46.71967</vlrBruto>
+          <vlrBaseIR>46.71967</vlrBaseIR>
+          <vlrIR>0.70079505</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50576260000188</CNPJ_Benef>
+        <nmBenef>50.576.260 JANAIRES GOMES DE MELO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-114.211076</vlrBruto>
+          <vlrBaseIR>-114.211076</vlrBaseIR>
+          <vlrIR>-1.71316614</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>56661621000170</CNPJ_Benef>
+        <nmBenef>56.661.621 WALLACE FERNANDES COSTA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>7.842566</vlrBruto>
+          <vlrBaseIR>7.842566</vlrBaseIR>
+          <vlrIR>0.11763849</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51785201000182</CNPJ_Benef>
+        <nmBenef>ADEGA ECO BRASA VILA ALPINA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>19.565772</vlrBruto>
+          <vlrBaseIR>19.565772</vlrBaseIR>
+          <vlrIR>0.29348658</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34593127000183</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA ITAMAMBUCA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>24.681702</vlrBruto>
+          <vlrBaseIR>24.681702</vlrBaseIR>
+          <vlrIR>0.37022553</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33456656000172</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA LAZARO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>32.115756</vlrBruto>
+          <vlrBaseIR>32.115756</vlrBaseIR>
+          <vlrIR>0.4817363399999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>37994789000153</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA MARANDUBA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>91.943138</vlrBruto>
+          <vlrBaseIR>91.943138</vlrBaseIR>
+          <vlrIR>1.37914707</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39558152000140</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA PEREQUE ACU LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>58.645953</vlrBruto>
+          <vlrBaseIR>58.645953</vlrBaseIR>
+          <vlrIR>0.8796892949999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>29547945000100</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA PEREQUE MIRIM LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>58.417429</vlrBruto>
+          <vlrBaseIR>58.417429</vlrBaseIR>
+          <vlrIR>0.876261435</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36099073000120</CNPJ_Benef>
+        <nmBenef>ADEGA ECOBRASA SACO DA RIBEIRA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>22.279483</vlrBruto>
+          <vlrBaseIR>22.279483</vlrBaseIR>
+          <vlrIR>0.334192245</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>6159045000190</CNPJ_Benef>
+        <nmBenef>AGRONOGUEIRA COMERCIOS DE PNEUS LTDA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1462.975</vlrBruto>
+          <vlrBaseIR>-1462.975</vlrBaseIR>
+          <vlrIR>-21.944625</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>3652281000155</CNPJ_Benef>
+        <nmBenef>ANA LUCIA PEREIRA BORDAO </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-3.38895</vlrBruto>
+          <vlrBaseIR>-3.38895</vlrBaseIR>
+          <vlrIR>-0.05083425</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>53604537000127</CNPJ_Benef>
+        <nmBenef>ANDERSON DE MELO E SILVA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-641.433325</vlrBruto>
+          <vlrBaseIR>-641.433325</vlrBaseIR>
+          <vlrIR>-9.621499875</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4608458000189</CNPJ_Benef>
+        <nmBenef>BIRA COMERCIO DE PECAS E SERVICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>935.5027</vlrBruto>
+          <vlrBaseIR>935.5027</vlrBaseIR>
+          <vlrIR>14.0325405</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4154314000108</CNPJ_Benef>
+        <nmBenef>BRECAR SERVICOS E PECAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>13.37</vlrBruto>
+          <vlrBaseIR>13.37</vlrBaseIR>
+          <vlrIR>0.20055</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42244512000143</CNPJ_Benef>
+        <nmBenef>BRUNO CESAR DA SILVA MELO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.353543</vlrBruto>
+          <vlrBaseIR>12.353543</vlrBaseIR>
+          <vlrIR>0.185303145</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>24363989000166</CNPJ_Benef>
+        <nmBenef>C H AZEVEDO MIRANDA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>185.357612</vlrBruto>
+          <vlrBaseIR>185.357612</vlrBaseIR>
+          <vlrIR>2.78036418</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>43499543000108</CNPJ_Benef>
+        <nmBenef>CAJUMED ATIVIDADE MEDICA AMBULATORIAL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>82.1386</vlrBruto>
+          <vlrBaseIR>82.1386</vlrBaseIR>
+          <vlrIR>1.232079</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>18392767000179</CNPJ_Benef>
+        <nmBenef>CARDOSO COMERCIO DE CONFECÇÕES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.265713</vlrBruto>
+          <vlrBaseIR>1.265713</vlrBaseIR>
+          <vlrIR>0.018985695</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>947762000108</CNPJ_Benef>
+        <nmBenef>CARMEN CARDOSO DE OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>4.935223</vlrBruto>
+          <vlrBaseIR>4.935223</vlrBaseIR>
+          <vlrIR>0.074028345</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39935486000195</CNPJ_Benef>
+        <nmBenef>CASA BRASILIS PADARIA CONFEITARIA E RESTAURANTE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>660.77782</vlrBruto>
+          <vlrBaseIR>660.77782</vlrBaseIR>
+          <vlrIR>9.9116673</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>8865752000127</CNPJ_Benef>
+        <nmBenef>CAVALCANTE PRODUTOS AGRICOLA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>493.058338</vlrBruto>
+          <vlrBaseIR>493.058338</vlrBaseIR>
+          <vlrIR>7.39587507</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42532244000165</CNPJ_Benef>
+        <nmBenef>CENTER CLINICAL IMAGEM LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>203.412345</vlrBruto>
+          <vlrBaseIR>203.412345</vlrBaseIR>
+          <vlrIR>3.051185175</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42379384000226</CNPJ_Benef>
+        <nmBenef>CENTER CLINICAL IMAGEM PNZ II FILIAL </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>25.73342</vlrBruto>
+          <vlrBaseIR>25.73342</vlrBaseIR>
+          <vlrIR>0.3860013</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42379384000145</CNPJ_Benef>
+        <nmBenef>CENTER CLINICAL IMAGEM PNZ II LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>261.561495</vlrBruto>
+          <vlrBaseIR>261.561495</vlrBaseIR>
+          <vlrIR>3.923422425</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21765381000170</CNPJ_Benef>
+        <nmBenef>CENTER PREV CLINICA MEDICA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.1065</vlrBruto>
+          <vlrBaseIR>14.1065</vlrBaseIR>
+          <vlrIR>0.2115975</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30308924000110</CNPJ_Benef>
+        <nmBenef>CL COMERCIO EM AVIAMENTOS EM GERAL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-46.301715</vlrBruto>
+          <vlrBaseIR>-46.301715</vlrBaseIR>
+          <vlrIR>-0.694525725</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>28730485000198</CNPJ_Benef>
+        <nmBenef>CLINICAL CENTER SERVICOS MEDICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>37.890675</vlrBruto>
+          <vlrBaseIR>37.890675</vlrBaseIR>
+          <vlrIR>0.568360125</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41735596000155</CNPJ_Benef>
+        <nmBenef>COMERCIAL LAUD LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-22.491841</vlrBruto>
+          <vlrBaseIR>-22.491841</vlrBaseIR>
+          <vlrIR>-0.337377615</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41735596000236</CNPJ_Benef>
+        <nmBenef>COMERCIAL LAUD LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.473</vlrBruto>
+          <vlrBaseIR>6.473</vlrBaseIR>
+          <vlrIR>0.097095</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>28452521000107</CNPJ_Benef>
+        <nmBenef>D A C DE SOUZA CONFECCOES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>19.53275</vlrBruto>
+          <vlrBaseIR>19.53275</vlrBaseIR>
+          <vlrIR>0.29299125</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32710259000112</CNPJ_Benef>
+        <nmBenef>D. F. DE SOUZA COMERCIO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>20.24005</vlrBruto>
+          <vlrBaseIR>20.24005</vlrBaseIR>
+          <vlrIR>0.30360075</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17169286000136</CNPJ_Benef>
+        <nmBenef>DAN TOM COMERCIO DE CONFECÇÕES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-66.839764</vlrBruto>
+          <vlrBaseIR>-66.839764</vlrBaseIR>
+          <vlrIR>-1.00259646</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54696429000194</CNPJ_Benef>
+        <nmBenef>DANIEL JOSE DA SILVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-812.762845</vlrBruto>
+          <vlrBaseIR>-812.762845</vlrBaseIR>
+          <vlrIR>-12.191442675</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46319219000159</CNPJ_Benef>
+        <nmBenef>ECO ATIBAIA COMERCIO DE BEBIDAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>25.73</vlrBruto>
+          <vlrBaseIR>25.73</vlrBaseIR>
+          <vlrIR>0.38595</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34615832000134</CNPJ_Benef>
+        <nmBenef>FELIX AUGUSTO NUNES DE SOUSA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-36.291604</vlrBruto>
+          <vlrBaseIR>-36.291604</vlrBaseIR>
+          <vlrIR>-0.54437406</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34615832000215</CNPJ_Benef>
+        <nmBenef>FELIX AUGUSTO NUNES DE SOUSA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.471609</vlrBruto>
+          <vlrBaseIR>1.471609</vlrBaseIR>
+          <vlrIR>0.022074135</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46681286000119</CNPJ_Benef>
+        <nmBenef>FLAVIO VINICIUS MORAES DUARTE 70566079429</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>275.568188</vlrBruto>
+          <vlrBaseIR>275.568188</vlrBaseIR>
+          <vlrIR>4.13352282</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44309939000108</CNPJ_Benef>
+        <nmBenef>HELLEN FERNANDES COSTA 30959091874</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>25.999465</vlrBruto>
+          <vlrBaseIR>25.999465</vlrBaseIR>
+          <vlrIR>0.389991975</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>37580807000150</CNPJ_Benef>
+        <nmBenef>HONORIO MATERIAIS DE CONSTRUCAO E ELETRICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.601716</vlrBruto>
+          <vlrBaseIR>2.601716</vlrBaseIR>
+          <vlrIR>0.03902574</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>734304000182</CNPJ_Benef>
+        <nmBenef>HUGO ANCHIETA NOGUEIRA DE VASCONCELOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>54.919487</vlrBruto>
+          <vlrBaseIR>54.919487</vlrBaseIR>
+          <vlrIR>0.8237923049999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47787303000160</CNPJ_Benef>
+        <nmBenef>IFEEL STORE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1.459856</vlrBruto>
+          <vlrBaseIR>-1.459856</vlrBaseIR>
+          <vlrIR>-0.02189784</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>23103979000129</CNPJ_Benef>
+        <nmBenef>IMPERIO PET COMERCIO DE PRODUTOS AGROPECUARIOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>131.270862</vlrBruto>
+          <vlrBaseIR>131.270862</vlrBaseIR>
+          <vlrIR>1.96906293</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47954800000105</CNPJ_Benef>
+        <nmBenef>IZAAC FLYM BARBOSA 06029748106 </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.907826</vlrBruto>
+          <vlrBaseIR>1.907826</vlrBaseIR>
+          <vlrIR>0.02861739</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52448376000167</CNPJ_Benef>
+        <nmBenef>IZABELA LIRA BERNARDO DE MELO ALVES CHALES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>65.942783</vlrBruto>
+          <vlrBaseIR>65.942783</vlrBaseIR>
+          <vlrIR>0.9891417450000001</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>35721570000155</CNPJ_Benef>
+        <nmBenef>joalheria arcoverdence Ltda </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-15.69588</vlrBruto>
+          <vlrBaseIR>-15.69588</vlrBaseIR>
+          <vlrIR>-0.2354382</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32341093000104</CNPJ_Benef>
+        <nmBenef>JOHNY WEBER ALVES DA SILVA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>79.548805</vlrBruto>
+          <vlrBaseIR>79.548805</vlrBaseIR>
+          <vlrIR>1.193232075</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39527453000106</CNPJ_Benef>
+        <nmBenef>JOSE JOALDO ALVES DOS SANTOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>131.438835</vlrBruto>
+          <vlrBaseIR>131.438835</vlrBaseIR>
+          <vlrIR>1.971582525</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34372346000132</CNPJ_Benef>
+        <nmBenef>LEGALIZA BRASIL REGULARIZACAO </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>59.9992</vlrBruto>
+          <vlrBaseIR>59.9992</vlrBaseIR>
+          <vlrIR>0.899988</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54089462000156</CNPJ_Benef>
+        <nmBenef>LEONARDO ALBINO DA SILVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>102.189207</vlrBruto>
+          <vlrBaseIR>102.189207</vlrBaseIR>
+          <vlrIR>1.532838105</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33887364000194</CNPJ_Benef>
+        <nmBenef>LIBAS GRILL RESTAURANTE E PIZZARIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>19.48672</vlrBruto>
+          <vlrBaseIR>19.48672</vlrBaseIR>
+          <vlrIR>0.2923008</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57179110000180</CNPJ_Benef>
+        <nmBenef>LILI CASE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.1575</vlrBruto>
+          <vlrBaseIR>0.1575</vlrBaseIR>
+          <vlrIR>0.0023625</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>5964854000101</CNPJ_Benef>
+        <nmBenef>LOJA ELDER COMERCIO DE CONFECÇÕES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-7.677158</vlrBruto>
+          <vlrBaseIR>-7.677158</vlrBaseIR>
+          <vlrIR>-0.11515737</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42020492000127</CNPJ_Benef>
+        <nmBenef>LOJAS ELDER LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-10.973292</vlrBruto>
+          <vlrBaseIR>-10.973292</vlrBaseIR>
+          <vlrIR>-0.16459938</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>23094488000169</CNPJ_Benef>
+        <nmBenef>LOJAS TANGARA COMERCIO DE CONFECÇÕES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.638233</vlrBruto>
+          <vlrBaseIR>5.638233</vlrBaseIR>
+          <vlrIR>0.08457349499999998</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41861815000223</CNPJ_Benef>
+        <nmBenef>LUMOS  STORE  COMERCIO  VAREJISTA  DE ROUPAS  LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>32.210189</vlrBruto>
+          <vlrBaseIR>32.210189</vlrBaseIR>
+          <vlrIR>0.483152835</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41861815000142</CNPJ_Benef>
+        <nmBenef>lumos store comercio varejista de roupas ltda </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>17.321756</vlrBruto>
+          <vlrBaseIR>17.321756</vlrBaseIR>
+          <vlrIR>0.25982634</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7815372000115</CNPJ_Benef>
+        <nmBenef>MARIA ROSEANE DA SILVA GOMES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>29.1418</vlrBruto>
+          <vlrBaseIR>29.1418</vlrBaseIR>
+          <vlrIR>0.437127</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17251954000331</CNPJ_Benef>
+        <nmBenef>MARIA SEILDE SAMPAIO DE MELO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.8345</vlrBruto>
+          <vlrBaseIR>5.8345</vlrBaseIR>
+          <vlrIR>0.0875175</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51666334000130</CNPJ_Benef>
+        <nmBenef>MRZ COMERCIO DE CONFECCOES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>52.9761</vlrBruto>
+          <vlrBaseIR>52.9761</vlrBaseIR>
+          <vlrIR>0.7946415</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33242237000138</CNPJ_Benef>
+        <nmBenef>N. MIRANDA CORREA COMERCIO DE ROUPAS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>46.1059</vlrBruto>
+          <vlrBaseIR>46.1059</vlrBaseIR>
+          <vlrIR>0.6915884999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54147309000138</CNPJ_Benef>
+        <nmBenef>NOE ANTONIO MAURICIO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.875385</vlrBruto>
+          <vlrBaseIR>3.875385</vlrBaseIR>
+          <vlrIR>0.058130775</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47781645000172</CNPJ_Benef>
+        <nmBenef>P. STORE ELETRONICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-138.482483</vlrBruto>
+          <vlrBaseIR>-138.482483</vlrBaseIR>
+          <vlrIR>-2.077237245</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>2031996000209</CNPJ_Benef>
+        <nmBenef>PATOS COMERCIAL DE VARIEDADES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-27.59242</vlrBruto>
+          <vlrBaseIR>-27.59242</vlrBaseIR>
+          <vlrIR>-0.4138863</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>2031996000128</CNPJ_Benef>
+        <nmBenef>Patos Comercio de Variedades Ltda</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-37.6602</vlrBruto>
+          <vlrBaseIR>-37.6602</vlrBaseIR>
+          <vlrIR>-0.564903</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36598934000114</CNPJ_Benef>
+        <nmBenef>Possidio e Guimaraes Comercio varejista de Tintas Ltda</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-6.005</vlrBruto>
+          <vlrBaseIR>-6.005</vlrBaseIR>
+          <vlrIR>-0.09007499999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34102660000103</CNPJ_Benef>
+        <nmBenef>RODRIGO DOS SANTOS EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-58.708502</vlrBruto>
+          <vlrBaseIR>-58.708502</vlrBaseIR>
+          <vlrIR>-0.88062753</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48168230000190</CNPJ_Benef>
+        <nmBenef>Rodrigo Rodrigues Nogueira Ltda </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.317019</vlrBruto>
+          <vlrBaseIR>12.317019</vlrBaseIR>
+          <vlrIR>0.184755285</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49864886000100</CNPJ_Benef>
+        <nmBenef>RUBENS M ONISHI LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>67.040295</vlrBruto>
+          <vlrBaseIR>67.040295</vlrBaseIR>
+          <vlrIR>1.005604425</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>28287932000186</CNPJ_Benef>
+        <nmBenef>SILVANA RIBEIRO DE SOUZA 00915233541</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.789141</vlrBruto>
+          <vlrBaseIR>6.789141</vlrBaseIR>
+          <vlrIR>0.101837115</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>8593350000110</CNPJ_Benef>
+        <nmBenef>Thais Aparecida Arriel Freire &amp; Cia Ltda</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>35.825</vlrBruto>
+          <vlrBaseIR>35.825</vlrBaseIR>
+          <vlrIR>0.537375</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>28925799000146</CNPJ_Benef>
+        <nmBenef>VALECOM SOLUCOES EMPRESARIAIS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1.884001</vlrBruto>
+          <vlrBaseIR>-1.884001</vlrBaseIR>
+          <vlrIR>-0.028260015</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>53494475000148</CNPJ_Benef>
+        <nmBenef>WS PISCINAS E MATERIAIS DE CONSTRUCAO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.357</vlrBruto>
+          <vlrBaseIR>12.357</vlrBaseIR>
+          <vlrIR>0.185355</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47684539000170</CNPJ_Benef>
+        <nmBenef>A ROCINHA ALIMENTO DA GRACA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.634158</vlrBruto>
+          <vlrBaseIR>0.634158</vlrBaseIR>
+          <vlrIR>0.00951237</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31237773000110</CNPJ_Benef>
+        <nmBenef>AVDV ESTETICA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>21.537383</vlrBruto>
+          <vlrBaseIR>21.537383</vlrBaseIR>
+          <vlrIR>0.323060745</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50282302000178</CNPJ_Benef>
+        <nmBenef>O REY DA ESTRADA DO COCO CONVENCIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9240589000170</CNPJ_Benef>
+        <nmBenef>POUSADA SO ALEGRIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>58.467235</vlrBruto>
+          <vlrBaseIR>58.467235</vlrBaseIR>
+          <vlrIR>0.877008525</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19115491000144</CNPJ_Benef>
+        <nmBenef>SPA DENTAL CLINIC LITORAL NORTE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>7.192</vlrBruto>
+          <vlrBaseIR>7.192</vlrBaseIR>
+          <vlrIR>0.10788</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19239260000142</CNPJ_Benef>
+        <nmBenef>ADSON ALMEIDA DE OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-8.755</vlrBruto>
+          <vlrBaseIR>-8.755</vlrBaseIR>
+          <vlrIR>-0.131325</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34733205000106</CNPJ_Benef>
+        <nmBenef>ALEXANDRO DA SILVA COELHO FILHO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.22356</vlrBruto>
+          <vlrBaseIR>2.22356</vlrBaseIR>
+          <vlrIR>0.0333534</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39942481000190</CNPJ_Benef>
+        <nmBenef>ALINE FERREIRA SANTOS 04211201506</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.127777</vlrBruto>
+          <vlrBaseIR>14.127777</vlrBaseIR>
+          <vlrIR>0.211916655</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>3932420000102</CNPJ_Benef>
+        <nmBenef>ANDRADE MERCEARIA LTDA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>66.060847</vlrBruto>
+          <vlrBaseIR>66.060847</vlrBaseIR>
+          <vlrIR>0.990912705</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>15733038000140</CNPJ_Benef>
+        <nmBenef>CENTRO DE FORMACAO DE CONDUTORES FEITOSA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>120.5905</vlrBruto>
+          <vlrBaseIR>120.5905</vlrBaseIR>
+          <vlrIR>1.8088575</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32844532000100</CNPJ_Benef>
+        <nmBenef>Colegio Pro Mundo LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1724.6</vlrBruto>
+          <vlrBaseIR>-1724.6</vlrBaseIR>
+          <vlrIR>-25.869</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>14915080000110</CNPJ_Benef>
+        <nmBenef>COMERCIAL BOMFIM &amp; SOUZA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1439.735</vlrBruto>
+          <vlrBaseIR>-1439.735</vlrBaseIR>
+          <vlrIR>-21.596025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>10972372000133</CNPJ_Benef>
+        <nmBenef>COMERCIAL DE CARNES E MERCEARIA ARAUJO EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1089.135</vlrBruto>
+          <vlrBaseIR>-1089.135</vlrBaseIR>
+          <vlrIR>-16.337025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31367681000154</CNPJ_Benef>
+        <nmBenef>COMERCIAL S S VARIEDADE DE CAMA MESA E BANHO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-2125.505</vlrBruto>
+          <vlrBaseIR>-2125.505</vlrBaseIR>
+          <vlrIR>-31.882575</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>3131345000172</CNPJ_Benef>
+        <nmBenef>COMERCIO RM ALIANÇA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>82.58515</vlrBruto>
+          <vlrBaseIR>82.58515</vlrBaseIR>
+          <vlrIR>1.23877725</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57428804000103</CNPJ_Benef>
+        <nmBenef>CRONODEX LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1260.819951</vlrBruto>
+          <vlrBaseIR>-1260.819951</vlrBaseIR>
+          <vlrIR>-18.912299265</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46393756000149</CNPJ_Benef>
+        <nmBenef>EDINALDO FEITOSA SANTOS FILHO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-107.16</vlrBruto>
+          <vlrBaseIR>-107.16</vlrBaseIR>
+          <vlrIR>-1.6074</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26347894000184</CNPJ_Benef>
+        <nmBenef>ELIZANGELA DE JESUS SOUZA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-0.995</vlrBruto>
+          <vlrBaseIR>-0.995</vlrBaseIR>
+          <vlrIR>-0.014925</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>29388585000140</CNPJ_Benef>
+        <nmBenef>ESCOLA DE ENSINO FUNCAMENTAL LTDA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>33.356025</vlrBruto>
+          <vlrBaseIR>33.356025</vlrBaseIR>
+          <vlrIR>0.5003403750000001</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>27670766000130</CNPJ_Benef>
+        <nmBenef>Farmácia GS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.035246</vlrBruto>
+          <vlrBaseIR>2.035246</vlrBaseIR>
+          <vlrIR>0.03052869</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50957047000116</CNPJ_Benef>
+        <nmBenef>FEITOSA &amp; MENEZES ODONTOLOGIA INTEGRADA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.15</vlrBruto>
+          <vlrBaseIR>1.15</vlrBaseIR>
+          <vlrIR>0.01725</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57427613000127</CNPJ_Benef>
+        <nmBenef>FNSEGUROS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-2883.200763</vlrBruto>
+          <vlrBaseIR>-2883.200763</vlrBaseIR>
+          <vlrIR>-43.248011445</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51568980000164</CNPJ_Benef>
+        <nmBenef>GN NETO CARNES E DERIVADOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-63.415</vlrBruto>
+          <vlrBaseIR>-63.415</vlrBaseIR>
+          <vlrIR>-0.951225</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>15063747000166</CNPJ_Benef>
+        <nmBenef>JARDIM DE INFANCIA CIRANDAR LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.9847</vlrBruto>
+          <vlrBaseIR>12.9847</vlrBaseIR>
+          <vlrIR>0.1947705</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30366039000198</CNPJ_Benef>
+        <nmBenef>JJB COMERCIO VAREJISTA DE ARTIGOS RECREATIVOS  LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-636.415</vlrBruto>
+          <vlrBaseIR>-636.415</vlrBaseIR>
+          <vlrIR>-9.546225</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30366039000198</CNPJ_Benef>
+        <nmBenef>JJB COMERCIO VAREJISTA DE ARTIGOS RECREATIVOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1584.68</vlrBruto>
+          <vlrBaseIR>-1584.68</vlrBaseIR>
+          <vlrIR>-23.7702</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36988122000185</CNPJ_Benef>
+        <nmBenef>JOSIENE DOS SANTOS MENEZES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-19.06</vlrBruto>
+          <vlrBaseIR>-19.06</vlrBaseIR>
+          <vlrIR>-0.2859</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34452613000181</CNPJ_Benef>
+        <nmBenef>LE JARDINS OTICA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-7358.36</vlrBruto>
+          <vlrBaseIR>-7358.36</vlrBaseIR>
+          <vlrIR>-110.3754</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34452605000135</CNPJ_Benef>
+        <nmBenef>LE PARQUE OTICA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1677.31</vlrBruto>
+          <vlrBaseIR>-1677.31</vlrBaseIR>
+          <vlrIR>-25.15965</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>13162284000164</CNPJ_Benef>
+        <nmBenef>Loja Yara LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>23.8455</vlrBruto>
+          <vlrBaseIR>23.8455</vlrBaseIR>
+          <vlrIR>0.3576825</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>27107844000192</CNPJ_Benef>
+        <nmBenef>LUBCAR LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.92425</vlrBruto>
+          <vlrBaseIR>3.92425</vlrBaseIR>
+          <vlrIR>0.05886374999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57426240000170</CNPJ_Benef>
+        <nmBenef>LUCRETEX LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>95.169405</vlrBruto>
+          <vlrBaseIR>95.169405</vlrBaseIR>
+          <vlrIR>1.427541075</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>56208701000175</CNPJ_Benef>
+        <nmBenef>M.C TOPOGRAFIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-6077.736279</vlrBruto>
+          <vlrBaseIR>-6077.736279</vlrBaseIR>
+          <vlrIR>-91.16604418499999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36631937000102</CNPJ_Benef>
+        <nmBenef>MARIA ROZIMEIRE GABRIEL ANDRADE MAT. DE CONSTRUCAO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-3.8336</vlrBruto>
+          <vlrBaseIR>-3.8336</vlrBaseIR>
+          <vlrIR>-0.057504</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32797391000103</CNPJ_Benef>
+        <nmBenef>MART COMERCIAL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>29.89183</vlrBruto>
+          <vlrBaseIR>29.89183</vlrBaseIR>
+          <vlrIR>0.44837745</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>1220943000192</CNPJ_Benef>
+        <nmBenef>MERCADINHO CUMBENSE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>37.039889</vlrBruto>
+          <vlrBaseIR>37.039889</vlrBaseIR>
+          <vlrIR>0.555598335</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7489901000308</CNPJ_Benef>
+        <nmBenef>NATCLIN SERVIÇOS LABORATORIAS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>7.59535</vlrBruto>
+          <vlrBaseIR>7.59535</vlrBaseIR>
+          <vlrIR>0.11393025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>11192696000111</CNPJ_Benef>
+        <nmBenef>NORDESTE PERSIANAS E SERVICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.592317</vlrBruto>
+          <vlrBaseIR>1.592317</vlrBaseIR>
+          <vlrIR>0.023884755</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51421437000130</CNPJ_Benef>
+        <nmBenef>POLICLINICA ITAPORANGA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>8.39325</vlrBruto>
+          <vlrBaseIR>8.39325</vlrBaseIR>
+          <vlrIR>0.12589875</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46466679000100</CNPJ_Benef>
+        <nmBenef>RAQUEL CARDOSO SOBRAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.1635</vlrBruto>
+          <vlrBaseIR>1.1635</vlrBaseIR>
+          <vlrIR>0.0174525</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>29314031000107</CNPJ_Benef>
+        <nmBenef>RINALDO FERREIRA DO NASCIMENTO - ME</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>7.445</vlrBruto>
+          <vlrBaseIR>7.445</vlrBaseIR>
+          <vlrIR>0.111675</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21811611000190</CNPJ_Benef>
+        <nmBenef>RMR VIDRAÇARIA E ESQUADRILHA DE ALUMÍNIO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-23.117</vlrBruto>
+          <vlrBaseIR>-23.117</vlrBaseIR>
+          <vlrIR>-0.346755</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57358478000105</CNPJ_Benef>
+        <nmBenef>RPLETEX LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-1481.999679</vlrBruto>
+          <vlrBaseIR>-1481.999679</vlrBaseIR>
+          <vlrIR>-22.229995185</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49770512000126</CNPJ_Benef>
+        <nmBenef>SANCHON TINTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.315</vlrBruto>
+          <vlrBaseIR>6.315</vlrBaseIR>
+          <vlrIR>0.094725</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>22573540000288</CNPJ_Benef>
+        <nmBenef>SERRANA TINTAS LTDA - ME</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>105.16056</vlrBruto>
+          <vlrBaseIR>105.16056</vlrBaseIR>
+          <vlrIR>1.5774084</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>14772279000136</CNPJ_Benef>
+        <nmBenef>SOLICLIN SERVIÇOS DIAGNOSTICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>29.34843</vlrBruto>
+          <vlrBaseIR>29.34843</vlrBaseIR>
+          <vlrIR>0.44022645</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49137251000101</CNPJ_Benef>
+        <nmBenef>SOUCLIN LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>-24.385</vlrBruto>
+          <vlrBaseIR>-24.385</vlrBaseIR>
+          <vlrIR>-0.365775</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9363657000198</CNPJ_Benef>
+        <nmBenef>SUPERMERCADO JD LTDA MICROEMPRESA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>165.750639</vlrBruto>
+          <vlrBaseIR>165.750639</vlrBaseIR>
+          <vlrIR>2.486259585</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4366600000129</CNPJ_Benef>
+        <nmBenef>  V.  A.  PEREIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>42.377356</vlrBruto>
+          <vlrBaseIR>42.377356</vlrBaseIR>
+          <vlrIR>0.6356603399999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54529838000104</CNPJ_Benef>
+        <nmBenef>ANDRE DOS SANTOS RIBEIRO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>32.7464</vlrBruto>
+          <vlrBaseIR>32.7464</vlrBaseIR>
+          <vlrIR>0.491196</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49491229000165</CNPJ_Benef>
+        <nmBenef>BDB PIZZA E BURGUER LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>86.73586</vlrBruto>
+          <vlrBaseIR>86.73586</vlrBaseIR>
+          <vlrIR>1.3010379</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>37128481000125</CNPJ_Benef>
+        <nmBenef>BREJO RACOES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>148.2397</vlrBruto>
+          <vlrBaseIR>148.2397</vlrBaseIR>
+          <vlrIR>2.2235955</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>25179282000167</CNPJ_Benef>
+        <nmBenef>EDMILSON  JOSE DE MOURA  FILHO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>68.348085</vlrBruto>
+          <vlrBaseIR>68.348085</vlrBaseIR>
+          <vlrIR>1.025221275</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36088913000159</CNPJ_Benef>
+        <nmBenef>ELION FERNANDES PEREIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>25.3808</vlrBruto>
+          <vlrBaseIR>25.3808</vlrBaseIR>
+          <vlrIR>0.380712</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40540736000177</CNPJ_Benef>
+        <nmBenef>FELIPE AUGUSTO DE OLIVEIRA SILVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.7771</vlrBruto>
+          <vlrBaseIR>0.7771</vlrBaseIR>
+          <vlrIR>0.0116565</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9373709000107</CNPJ_Benef>
+        <nmBenef>GILDENIA LIMA DA COSTA DE MOURA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>80.589127</vlrBruto>
+          <vlrBaseIR>80.589127</vlrBaseIR>
+          <vlrIR>1.208836905</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47009217000126</CNPJ_Benef>
+        <nmBenef>GILDENIA LIMA DA COSTA DE MOURA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>10.560624</vlrBruto>
+          <vlrBaseIR>10.560624</vlrBaseIR>
+          <vlrIR>0.15840936</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17827798000142</CNPJ_Benef>
+        <nmBenef>JOANA DARC OLIVEIRA DA SILVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>10.16934</vlrBruto>
+          <vlrBaseIR>10.16934</vlrBaseIR>
+          <vlrIR>0.1525401</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>8393837000150</CNPJ_Benef>
+        <nmBenef>JOÃO  MENDES  MIRANDA  EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>73.80666</vlrBruto>
+          <vlrBaseIR>73.80666</vlrBaseIR>
+          <vlrIR>1.1070999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26233950000150</CNPJ_Benef>
+        <nmBenef>JULIANA   MORAIS  DE  MEDEIROS  RODRIGUES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>64.42135</vlrBruto>
+          <vlrBaseIR>64.42135</vlrBaseIR>
+          <vlrIR>0.96632025</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47180620000113</CNPJ_Benef>
+        <nmBenef>MARIA CLARA DA CONCEICAO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>4.863</vlrBruto>
+          <vlrBaseIR>4.863</vlrBaseIR>
+          <vlrIR>0.07294500000000001</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21838783000157</CNPJ_Benef>
+        <nmBenef>MARIA JOSE LIRA PEREIRA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0023</vlrBruto>
+          <vlrBaseIR>0.0023</vlrBaseIR>
+          <vlrIR>3.45e-05</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>45778178000104</CNPJ_Benef>
+        <nmBenef>MENOR PRECO SOLUCOES AMBIENTAIS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30702426000158</CNPJ_Benef>
+        <nmBenef>MOURA COMERCIO VAREJISTA  LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.4076</vlrBruto>
+          <vlrBaseIR>14.4076</vlrBaseIR>
+          <vlrIR>0.216114</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>15404927000164</CNPJ_Benef>
+        <nmBenef>O MISTURÃO RAÇOES.COM LTDA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>80.67143</vlrBruto>
+          <vlrBaseIR>80.67143</vlrBaseIR>
+          <vlrIR>1.21007145</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>14584260000166</CNPJ_Benef>
+        <nmBenef>REJANE MEDEIROS ME</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>29.43598</vlrBruto>
+          <vlrBaseIR>29.43598</vlrBaseIR>
+          <vlrIR>0.4415397</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>8390833000118</CNPJ_Benef>
+        <nmBenef>TEONIO VIEIRA PINTO FILHO </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.04405</vlrBruto>
+          <vlrBaseIR>5.04405</vlrBaseIR>
+          <vlrIR>0.07566075</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19357262000136</CNPJ_Benef>
+        <nmBenef>V.D. DA SILVA PEÇAS E SERVIÇOES </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.634415</vlrBruto>
+          <vlrBaseIR>14.634415</vlrBaseIR>
+          <vlrIR>0.219516225</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>8944401000535</CNPJ_Benef>
+        <nmBenef>J. R. DE FREITAS - CONFECCOES FEMININAS E ACESSORIOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>152.265006</vlrBruto>
+          <vlrBaseIR>152.265006</vlrBaseIR>
+          <vlrIR>2.28397509</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52221494000138</CNPJ_Benef>
+        <nmBenef>DROGARIA NOVA ITAQUERA FARMA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.20723</vlrBruto>
+          <vlrBaseIR>0.20723</vlrBaseIR>
+          <vlrIR>0.00310845</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>5572467000120</CNPJ_Benef>
+        <nmBenef>ELIMAR DE SOUZA RESENDE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.734219</vlrBruto>
+          <vlrBaseIR>0.734219</vlrBaseIR>
+          <vlrIR>0.011013285</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>74457425000160</CNPJ_Benef>
+        <nmBenef>FREGUEZIA SUPER LANCHONETE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.615185</vlrBruto>
+          <vlrBaseIR>1.615185</vlrBaseIR>
+          <vlrIR>0.024227775</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51220101000109</CNPJ_Benef>
+        <nmBenef>GLOBAL PAES E DOCES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.72046</vlrBruto>
+          <vlrBaseIR>12.72046</vlrBaseIR>
+          <vlrIR>0.1908069</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32950715000100</CNPJ_Benef>
+        <nmBenef>Gomes e Santos Terapia Capilar Ltda</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.9798</vlrBruto>
+          <vlrBaseIR>3.9798</vlrBaseIR>
+          <vlrIR>0.059697</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52351308000185</CNPJ_Benef>
+        <nmBenef>Grano Padano - Panificação Restaurante e Pizzaria Ltda</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.359772</vlrBruto>
+          <vlrBaseIR>0.359772</vlrBaseIR>
+          <vlrIR>0.00539658</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39471058001120</CNPJ_Benef>
+        <nmBenef>JGM COMERCIO DE LANCHES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.818353</vlrBruto>
+          <vlrBaseIR>0.818353</vlrBaseIR>
+          <vlrIR>0.012275295</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31966304000131</CNPJ_Benef>
+        <nmBenef>MENSE ART BAR E LANCHONETE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.328939</vlrBruto>
+          <vlrBaseIR>1.328939</vlrBaseIR>
+          <vlrIR>0.019934085</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7615201000142</CNPJ_Benef>
+        <nmBenef>MIRIAN MARTINS COSMETICOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.787327</vlrBruto>
+          <vlrBaseIR>11.787327</vlrBaseIR>
+          <vlrIR>0.176809905</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47384862000129</CNPJ_Benef>
+        <nmBenef>PADARIA E CONFEITARIA RECANTO DO PQUE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.663796</vlrBruto>
+          <vlrBaseIR>3.663796</vlrBaseIR>
+          <vlrIR>0.05495694</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52659679000129</CNPJ_Benef>
+        <nmBenef>PAES E DOCES TRIGONELA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>19.94911</vlrBruto>
+          <vlrBaseIR>19.94911</vlrBaseIR>
+          <vlrIR>0.29923665</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49249600000187</CNPJ_Benef>
+        <nmBenef>PANIFICADORA E CONFEITARIA MIAMI LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>320.354445</vlrBruto>
+          <vlrBaseIR>320.354445</vlrBaseIR>
+          <vlrIR>4.805316674999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44255362000107</CNPJ_Benef>
+        <nmBenef>PANIFICADORA LAR DE GUARULHOS LTDA ME</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.195152</vlrBruto>
+          <vlrBaseIR>6.195152</vlrBaseIR>
+          <vlrIR>0.09292728</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>3711317000124</CNPJ_Benef>
+        <nmBenef>PANIFICADORA TRIGO REI DE JEQUIE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.861484</vlrBruto>
+          <vlrBaseIR>3.861484</vlrBaseIR>
+          <vlrIR>0.05792226</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48240677000123</CNPJ_Benef>
+        <nmBenef>RESTAURANTE BIFE DE TIRA DONINHA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>39659247000150</CNPJ_Benef>
+        <nmBenef>SQGTEC SISTEMAS E SUPORTE EM TECNOLOGIA DA INFORMACAO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>80.755</vlrBruto>
+          <vlrBaseIR>80.755</vlrBaseIR>
+          <vlrIR>1.211325</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34807303000132</CNPJ_Benef>
+        <nmBenef>ALEXANDRE DE PAULA MASSAFERA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.5039</vlrBruto>
+          <vlrBaseIR>6.5039</vlrBaseIR>
+          <vlrIR>0.09755849999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42253671000104</CNPJ_Benef>
+        <nmBenef>BANCADA SOLIDÁRIA TAQUARAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.2425</vlrBruto>
+          <vlrBaseIR>0.2425</vlrBaseIR>
+          <vlrIR>0.0036375</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42288344000198</CNPJ_Benef>
+        <nmBenef>CAROLINA DA SILVA OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>4.1372</vlrBruto>
+          <vlrBaseIR>4.1372</vlrBaseIR>
+          <vlrIR>0.062058</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31000541000143</CNPJ_Benef>
+        <nmBenef>DULCELINA LUCAS DOMICIANO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.7004</vlrBruto>
+          <vlrBaseIR>1.7004</vlrBaseIR>
+          <vlrIR>0.025506</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26207225000107</CNPJ_Benef>
+        <nmBenef>Francisco Eneas Caldas</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.612125</vlrBruto>
+          <vlrBaseIR>11.612125</vlrBaseIR>
+          <vlrIR>0.174181875</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>11064911000107</CNPJ_Benef>
+        <nmBenef>GILBERTO NOGUEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>13.541557</vlrBruto>
+          <vlrBaseIR>13.541557</vlrBaseIR>
+          <vlrIR>0.203123355</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51931775000111</CNPJ_Benef>
+        <nmBenef>HELENA DOS REIS RODRIGUES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>52.554382</vlrBruto>
+          <vlrBaseIR>52.554382</vlrBaseIR>
+          <vlrIR>0.7883157299999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51736971000135</CNPJ_Benef>
+        <nmBenef>HH EVENTOS E PARTICIPAÇÕES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.16</vlrBruto>
+          <vlrBaseIR>0.16</vlrBaseIR>
+          <vlrIR>0.0024</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>14977594000108</CNPJ_Benef>
+        <nmBenef>ISABEL CRISTINA MOREIRA DE OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>8.51488</vlrBruto>
+          <vlrBaseIR>8.51488</vlrBaseIR>
+          <vlrIR>0.1277232</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46702594000183</CNPJ_Benef>
+        <nmBenef>JACKSON MOEIRA MACIEL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.45754</vlrBruto>
+          <vlrBaseIR>3.45754</vlrBaseIR>
+          <vlrIR>0.0518631</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49656387000128</CNPJ_Benef>
+        <nmBenef>JEAN JOSÉ SILVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>52.408165</vlrBruto>
+          <vlrBaseIR>52.408165</vlrBaseIR>
+          <vlrIR>0.7861224749999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51536718000138</CNPJ_Benef>
+        <nmBenef>JORGE DE PAULA MASSAFERA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.451</vlrBruto>
+          <vlrBaseIR>6.451</vlrBaseIR>
+          <vlrIR>0.09676499999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>18149432000124</CNPJ_Benef>
+        <nmBenef>JOSIANE RIVELLY NASCIMENTO FURTADO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0078</vlrBruto>
+          <vlrBaseIR>0.0078</vlrBaseIR>
+          <vlrIR>0.000117</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36408222000195</CNPJ_Benef>
+        <nmBenef>KARINA ROCHA ALVES PARANHOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>36.576775</vlrBruto>
+          <vlrBaseIR>36.576775</vlrBaseIR>
+          <vlrIR>0.548651625</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32401295000102</CNPJ_Benef>
+        <nmBenef>LAIS SANTOS LIMA PEREIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.34138</vlrBruto>
+          <vlrBaseIR>3.34138</vlrBaseIR>
+          <vlrIR>0.0501207</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54403569000127</CNPJ_Benef>
+        <nmBenef>LARISSA SILVA PRUDENTE</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>7.55157</vlrBruto>
+          <vlrBaseIR>7.55157</vlrBaseIR>
+          <vlrIR>0.11327355</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52063946000109</CNPJ_Benef>
+        <nmBenef>LUCAS DE SOUZA QUINTINO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>22.5392</vlrBruto>
+          <vlrBaseIR>22.5392</vlrBaseIR>
+          <vlrIR>0.338088</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57006537000186</CNPJ_Benef>
+        <nmBenef>Marcelo da Silva Reis Candido</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>10.9273</vlrBruto>
+          <vlrBaseIR>10.9273</vlrBaseIR>
+          <vlrIR>0.1639095</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34895536000134</CNPJ_Benef>
+        <nmBenef>Marcia Regina de Souza</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.60394</vlrBruto>
+          <vlrBaseIR>0.60394</vlrBaseIR>
+          <vlrIR>0.0090591</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44534474000199</CNPJ_Benef>
+        <nmBenef>PHARMÁCIA TRADIÇÃO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.805925</vlrBruto>
+          <vlrBaseIR>12.805925</vlrBaseIR>
+          <vlrIR>0.192088875</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54933406000156</CNPJ_Benef>
+        <nmBenef>RAQUEL DE FATIMA DA SILVA RIBEIRO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.33265</vlrBruto>
+          <vlrBaseIR>5.33265</vlrBaseIR>
+          <vlrIR>0.07998975</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40399089000125</CNPJ_Benef>
+        <nmBenef>RHUMIC AGRONEGOCIOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.519</vlrBruto>
+          <vlrBaseIR>11.519</vlrBaseIR>
+          <vlrIR>0.172785</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19389931000151</CNPJ_Benef>
+        <nmBenef>SEBASTIÃO DONIZETE DA COSTA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.102315</vlrBruto>
+          <vlrBaseIR>1.102315</vlrBaseIR>
+          <vlrIR>0.016534725</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44071123000199</CNPJ_Benef>
+        <nmBenef>SÉRGIO MARCONDES DE FOREZA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.6425</vlrBruto>
+          <vlrBaseIR>5.6425</vlrBaseIR>
+          <vlrIR>0.0846375</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>23952336000150</CNPJ_Benef>
+        <nmBenef>SOCIEDADE PRE UNIVERSITÁRIA POUSO ALEGRE</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>86.783906</vlrBruto>
+          <vlrBaseIR>86.783906</vlrBaseIR>
+          <vlrIR>1.30175859</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>38928139000172</CNPJ_Benef>
+        <nmBenef>TAHOES HAMBURGUERIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>9.200483</vlrBruto>
+          <vlrBaseIR>9.200483</vlrBaseIR>
+          <vlrIR>0.138007245</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44824591000197</CNPJ_Benef>
+        <nmBenef>TEREZINHA DE JESUS MASSAFERA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>35.5752</vlrBruto>
+          <vlrBaseIR>35.5752</vlrBaseIR>
+          <vlrIR>0.533628</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30405782000100</CNPJ_Benef>
+        <nmBenef>VANIA BASTOS ARANTES </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>24.5492</vlrBruto>
+          <vlrBaseIR>24.5492</vlrBaseIR>
+          <vlrIR>0.368238</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32611450000107</CNPJ_Benef>
+        <nmBenef>WALERIA FREITAS SILVA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.3</vlrBruto>
+          <vlrBaseIR>11.3</vlrBaseIR>
+          <vlrIR>0.1695</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30751068000173</CNPJ_Benef>
+        <nmBenef>30.751.068 DIONE ANASTACIA DE SENA MAGALHAES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>3.295836</vlrBruto>
+          <vlrBaseIR>3.295836</vlrBaseIR>
+          <vlrIR>0.04943754</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50295509000187</CNPJ_Benef>
+        <nmBenef>50.295.509 SHIRLEY MATOS CALEIRAS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>174.43059</vlrBruto>
+          <vlrBaseIR>174.43059</vlrBaseIR>
+          <vlrIR>2.61645885</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47365888000120</CNPJ_Benef>
+        <nmBenef>DIEGO HENRIQUE DOS SANTOS 14689520640</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>9.16</vlrBruto>
+          <vlrBaseIR>9.16</vlrBaseIR>
+          <vlrIR>0.1374</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>52409454000114</CNPJ_Benef>
+        <nmBenef>GABRIELLE C ARAUJO HARMONIZACAO FACIAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.86866</vlrBruto>
+          <vlrBaseIR>5.86866</vlrBaseIR>
+          <vlrIR>0.0880299</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50799250000101</CNPJ_Benef>
+        <nmBenef>LANCHONETE CACHORRAO DO TREVO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0124</vlrBruto>
+          <vlrBaseIR>0.0124</vlrBaseIR>
+          <vlrIR>0.000186</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40685909000145</CNPJ_Benef>
+        <nmBenef>LEIDIMAR DA CRUZ GONCALVES 04643774630</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>15.9394</vlrBruto>
+          <vlrBaseIR>15.9394</vlrBaseIR>
+          <vlrIR>0.239091</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33708830000127</CNPJ_Benef>
+        <nmBenef>MARCIEL GONZAGA DA SILVA 13453604601</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.377867</vlrBruto>
+          <vlrBaseIR>6.377867</vlrBaseIR>
+          <vlrIR>0.095668005</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36730834000108</CNPJ_Benef>
+        <nmBenef>PADARIA TRES PODERES SAO BENEDITO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>15.126111</vlrBruto>
+          <vlrBaseIR>15.126111</vlrBaseIR>
+          <vlrIR>0.226891665</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>22627272000159</CNPJ_Benef>
+        <nmBenef>PALABRASA BAR E RESTAURANTE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.196</vlrBruto>
+          <vlrBaseIR>0.196</vlrBaseIR>
+          <vlrIR>0.00294</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>5156259000140</CNPJ_Benef>
+        <nmBenef>PANIFICADORA MAIS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>212.160997</vlrBruto>
+          <vlrBaseIR>212.160997</vlrBaseIR>
+          <vlrIR>3.182414955</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>27509158000148</CNPJ_Benef>
+        <nmBenef>S O S - MANUTENCAO DE CELULARES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.245</vlrBruto>
+          <vlrBaseIR>0.245</vlrBaseIR>
+          <vlrIR>0.003675</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>20861970000199</CNPJ_Benef>
+        <nmBenef>VO IZAURA DERIVADOS DE CARNES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>70.294607</vlrBruto>
+          <vlrBaseIR>70.294607</vlrBaseIR>
+          <vlrIR>1.054419105</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31898650000120</CNPJ_Benef>
+        <nmBenef>ADRIANA CASELATTO MARQUES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>81.6669</vlrBruto>
+          <vlrBaseIR>81.6669</vlrBaseIR>
+          <vlrIR>1.2250035</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33347221000190</CNPJ_Benef>
+        <nmBenef>AILTON FRANCISCO SALZANI 25753500854</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>15.45678</vlrBruto>
+          <vlrBaseIR>15.45678</vlrBaseIR>
+          <vlrIR>0.2318517</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42646101000184</CNPJ_Benef>
+        <nmBenef>BANCA DA VAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.416599</vlrBruto>
+          <vlrBaseIR>11.416599</vlrBaseIR>
+          <vlrIR>0.171248985</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>24434831000130</CNPJ_Benef>
+        <nmBenef>BARÃO LANCHES</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>9.822872</vlrBruto>
+          <vlrBaseIR>9.822872</vlrBaseIR>
+          <vlrIR>0.14734308</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50624103000109</CNPJ_Benef>
+        <nmBenef>BONASSE ESCOLA PROFISSIONALIZANTE DE PANIFICACAO E CONFEITARIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.76436</vlrBruto>
+          <vlrBaseIR>2.76436</vlrBaseIR>
+          <vlrIR>0.0414654</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34973346000198</CNPJ_Benef>
+        <nmBenef>BRGM ITAQUERA CURSO DE GASTRONOMIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.6065</vlrBruto>
+          <vlrBaseIR>0.6065</vlrBaseIR>
+          <vlrIR>0.0090975</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>43421385000173</CNPJ_Benef>
+        <nmBenef>CANIL CARA NEGRA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>713.865762</vlrBruto>
+          <vlrBaseIR>713.865762</vlrBaseIR>
+          <vlrIR>10.70798643</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7332730000139</CNPJ_Benef>
+        <nmBenef>CASA DO SERTANEJO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>584.8796</vlrBruto>
+          <vlrBaseIR>584.8796</vlrBaseIR>
+          <vlrIR>8.773194</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31354515000113</CNPJ_Benef>
+        <nmBenef>CENTER FITNESS SUPLEMENTOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>117.889908</vlrBruto>
+          <vlrBaseIR>117.889908</vlrBaseIR>
+          <vlrIR>1.76834862</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4652952000140</CNPJ_Benef>
+        <nmBenef>CRESCI E PERDI TC</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>23.2599</vlrBruto>
+          <vlrBaseIR>23.2599</vlrBaseIR>
+          <vlrIR>0.3488984999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7262537000179</CNPJ_Benef>
+        <nmBenef>DE SALVI PESQUISA E TREINAMENTO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>48.943095</vlrBruto>
+          <vlrBaseIR>48.943095</vlrBaseIR>
+          <vlrIR>0.7341464249999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44358446000168</CNPJ_Benef>
+        <nmBenef>DIAS AROMATIZANTES E FRAGRANCIAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>21.96366</vlrBruto>
+          <vlrBaseIR>21.96366</vlrBaseIR>
+          <vlrIR>0.3294549</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>27941029000124</CNPJ_Benef>
+        <nmBenef>DOUGLAS ROBSON ALMUDI 22476995886</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>139.8281</vlrBruto>
+          <vlrBaseIR>139.8281</vlrBaseIR>
+          <vlrIR>2.0974215</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48317267000133</CNPJ_Benef>
+        <nmBenef>ESFIHARIA E BURGER MUTTO1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>35.144255</vlrBruto>
+          <vlrBaseIR>35.144255</vlrBaseIR>
+          <vlrIR>0.527163825</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31505540000150</CNPJ_Benef>
+        <nmBenef>ETEC FUTURO ESCOLA TECNICA EM ENSINO PROFISSIONALIZANTE EM SAUDE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>16.6545</vlrBruto>
+          <vlrBaseIR>16.6545</vlrBaseIR>
+          <vlrIR>0.2498175</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36708856000163</CNPJ_Benef>
+        <nmBenef>F M L H COMERCIO DE PESCADOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>113.007526</vlrBruto>
+          <vlrBaseIR>113.007526</vlrBaseIR>
+          <vlrIR>1.69511289</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>24714798000100</CNPJ_Benef>
+        <nmBenef>GABRIELA GOUVEA MACHADO DE OLIVEIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>553.86961</vlrBruto>
+          <vlrBaseIR>553.86961</vlrBaseIR>
+          <vlrIR>8.308044149999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7027674000129</CNPJ_Benef>
+        <nmBenef>GROPPI ORTOPEDIA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>10.317788</vlrBruto>
+          <vlrBaseIR>10.317788</vlrBaseIR>
+          <vlrIR>0.15476682</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17160919000145</CNPJ_Benef>
+        <nmBenef>HIPNOSE ALTA COSTURA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>145.353</vlrBruto>
+          <vlrBaseIR>145.353</vlrBaseIR>
+          <vlrIR>2.180295</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>59037549000101</CNPJ_Benef>
+        <nmBenef>HIPNOSE RESTAURANTES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14231.5908</vlrBruto>
+          <vlrBaseIR>14231.5908</vlrBaseIR>
+          <vlrIR>213.473862</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49224287000122</CNPJ_Benef>
+        <nmBenef>HORTIFRUTI DA VAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>46.197949</vlrBruto>
+          <vlrBaseIR>46.197949</vlrBaseIR>
+          <vlrIR>0.692969235</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>13770900000160</CNPJ_Benef>
+        <nmBenef>HOT BATATA 1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>55.027943</vlrBruto>
+          <vlrBaseIR>55.027943</vlrBaseIR>
+          <vlrIR>0.825419145</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>65807521000109</CNPJ_Benef>
+        <nmBenef>JF EMBALAGENS </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>255.671994</vlrBruto>
+          <vlrBaseIR>255.671994</vlrBaseIR>
+          <vlrIR>3.83507991</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50832197000101</CNPJ_Benef>
+        <nmBenef>M V MENDES ADEGA DO MAQRQUINHOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>44.677232</vlrBruto>
+          <vlrBaseIR>44.677232</vlrBaseIR>
+          <vlrIR>0.6701584799999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>74605635000159</CNPJ_Benef>
+        <nmBenef>MAHARANI CULINÁRIA INDIANA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>71.47864</vlrBruto>
+          <vlrBaseIR>71.47864</vlrBaseIR>
+          <vlrIR>1.0721796</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41001486000160</CNPJ_Benef>
+        <nmBenef>MARVELOUS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.542618</vlrBruto>
+          <vlrBaseIR>14.542618</vlrBaseIR>
+          <vlrIR>0.21813927</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>53480062000104</CNPJ_Benef>
+        <nmBenef>MERCADAO DAS BATERIAIS 1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>232.04072</vlrBruto>
+          <vlrBaseIR>232.04072</vlrBaseIR>
+          <vlrIR>3.4806108</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4380312000129</CNPJ_Benef>
+        <nmBenef>MERCADAO DAS BATERIAS CONC RIO VERDE </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>6.9714</vlrBruto>
+          <vlrBaseIR>6.9714</vlrBaseIR>
+          <vlrIR>0.104571</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34822722000143</CNPJ_Benef>
+        <nmBenef>MILK MUTTO 123</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.77714</vlrBruto>
+          <vlrBaseIR>2.77714</vlrBaseIR>
+          <vlrIR>0.0416571</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>3179763000130</CNPJ_Benef>
+        <nmBenef>MIM LIPE</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>22.8404</vlrBruto>
+          <vlrBaseIR>22.8404</vlrBaseIR>
+          <vlrIR>0.342606</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31232773000127</CNPJ_Benef>
+        <nmBenef>MOTEL DOIS PRAZERES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>71.6848</vlrBruto>
+          <vlrBaseIR>71.6848</vlrBaseIR>
+          <vlrIR>1.075272</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>34899923000149</CNPJ_Benef>
+        <nmBenef>MULTI-PECAS DO BRASIL - COMERCIO DE PECAS AUTOMOTIVAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>247.516543</vlrBruto>
+          <vlrBaseIR>247.516543</vlrBaseIR>
+          <vlrIR>3.712748145</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>51756935000133</CNPJ_Benef>
+        <nmBenef>NEWPHISICAL 1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>128.83645</vlrBruto>
+          <vlrBaseIR>128.83645</vlrBaseIR>
+          <vlrIR>1.93254675</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>11250745000125</CNPJ_Benef>
+        <nmBenef>NIGHT LANCHES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>21.585055</vlrBruto>
+          <vlrBaseIR>21.585055</vlrBaseIR>
+          <vlrIR>0.323775825</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>398371000173</CNPJ_Benef>
+        <nmBenef>PAULO TADEU DE OLIVEIRA TREINAMENTO PROFISSIONAL E GERENCIAL</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>28.495091</vlrBruto>
+          <vlrBaseIR>28.495091</vlrBaseIR>
+          <vlrIR>0.427426365</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>38352298000171</CNPJ_Benef>
+        <nmBenef>POUSADA CEU DA MANTIQUEIRA1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1499.453219</vlrBruto>
+          <vlrBaseIR>1499.453219</vlrBaseIR>
+          <vlrIR>22.491798285</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42858358000108</CNPJ_Benef>
+        <nmBenef>RESTAURANTE APARECIDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>26.72</vlrBruto>
+          <vlrBaseIR>26.72</vlrBaseIR>
+          <vlrIR>0.4008</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40778517000120</CNPJ_Benef>
+        <nmBenef>RESTAURANTE E PIZZARIA DI CAPRI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>78.965434</vlrBruto>
+          <vlrBaseIR>78.965434</vlrBaseIR>
+          <vlrIR>1.18448151</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21275129000182</CNPJ_Benef>
+        <nmBenef>RESTAURANTE ITAPEVA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>380.472809</vlrBruto>
+          <vlrBaseIR>380.472809</vlrBaseIR>
+          <vlrIR>5.707092135</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19196833000106</CNPJ_Benef>
+        <nmBenef>SAMUVET</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1384.81685</vlrBruto>
+          <vlrBaseIR>1384.81685</vlrBaseIR>
+          <vlrIR>20.77225275</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>12401144000139</CNPJ_Benef>
+        <nmBenef>SMART MOBILE 1</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>44.768109</vlrBruto>
+          <vlrBaseIR>44.768109</vlrBaseIR>
+          <vlrIR>0.6715216350000001</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>35822646000139</CNPJ_Benef>
+        <nmBenef>STUDIO PILATES DAYANE DAYRELL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>166.103</vlrBruto>
+          <vlrBaseIR>166.103</vlrBaseIR>
+          <vlrIR>2.491545</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>17966590000104</CNPJ_Benef>
+        <nmBenef>SUPER LANCHE PA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>36.654135</vlrBruto>
+          <vlrBaseIR>36.654135</vlrBaseIR>
+          <vlrIR>0.5498120249999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7697245000169</CNPJ_Benef>
+        <nmBenef>TEFTI TECNOLOGIA E SISTEMAS INTEGRADOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9380735000162</CNPJ_Benef>
+        <nmBenef>TOMILHO'S GASTROBAR</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>204.889781</vlrBruto>
+          <vlrBaseIR>204.889781</vlrBaseIR>
+          <vlrIR>3.073346715</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>50344409000101</CNPJ_Benef>
+        <nmBenef>50344409 FRANCISCO ELIZIARIO FILHO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>13.02</vlrBruto>
+          <vlrBaseIR>13.02</vlrBaseIR>
+          <vlrIR>0.1953</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47809113000104</CNPJ_Benef>
+        <nmBenef>DEBORA APARECIDA DOS SANTOS 04280084963</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>52.907399</vlrBruto>
+          <vlrBaseIR>52.907399</vlrBaseIR>
+          <vlrIR>0.7936109849999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>25447085000181</CNPJ_Benef>
+        <nmBenef>DENISE APARECIDA ARAUJO CAPPELETTI 77205480949</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>14.97265</vlrBruto>
+          <vlrBaseIR>14.97265</vlrBaseIR>
+          <vlrIR>0.22458975</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>49241621000156</CNPJ_Benef>
+        <nmBenef>ESTETICA GISELE FREITAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>117.67</vlrBruto>
+          <vlrBaseIR>117.67</vlrBaseIR>
+          <vlrIR>1.76505</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36221528000138</CNPJ_Benef>
+        <nmBenef>F.P PSICOLOGIA E SAUDE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>41.771782</vlrBruto>
+          <vlrBaseIR>41.771782</vlrBaseIR>
+          <vlrIR>0.62657673</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>13114720000120</CNPJ_Benef>
+        <nmBenef>JOSEMAR HOFFMANN FRIZTINS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.48</vlrBruto>
+          <vlrBaseIR>2.48</vlrBaseIR>
+          <vlrIR>0.0372</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9351823000136</CNPJ_Benef>
+        <nmBenef>LJL COMERCIO E FABRICACAO DE MOVEIS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.99525</vlrBruto>
+          <vlrBaseIR>2.99525</vlrBaseIR>
+          <vlrIR>0.04492875</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>46985358000111</CNPJ_Benef>
+        <nmBenef>MARIA CLAUDIA MARTINS DA SILVA 09023759974</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>9.783894</vlrBruto>
+          <vlrBaseIR>9.783894</vlrBaseIR>
+          <vlrIR>0.14675841</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>20305781000130</CNPJ_Benef>
+        <nmBenef>MB FERREIRA CONFECCAO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30669058000193</CNPJ_Benef>
+        <nmBenef>PAULO HENRIQUE ABREU</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.861</vlrBruto>
+          <vlrBaseIR>12.861</vlrBaseIR>
+          <vlrIR>0.192915</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>31233081000101</CNPJ_Benef>
+        <nmBenef>ROSINETE FATIMA TOMAZ MENDES CASTANHA 00529708922</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36164867000120</CNPJ_Benef>
+        <nmBenef>STEPHANIE SOARES RIBEIRO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>5.1752</vlrBruto>
+          <vlrBaseIR>5.1752</vlrBaseIR>
+          <vlrIR>0.077628</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>30527400000110</CNPJ_Benef>
+        <nmBenef>WAGNER ROSA E SILVA 73262315915</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>12.8123</vlrBruto>
+          <vlrBaseIR>12.8123</vlrBaseIR>
+          <vlrIR>0.1921845</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>11706799000152</CNPJ_Benef>
+        <nmBenef>WEBER E GARCIA PRE MOLDADOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>15.0874</vlrBruto>
+          <vlrBaseIR>15.0874</vlrBaseIR>
+          <vlrIR>0.226311</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>24671422000157</CNPJ_Benef>
+        <nmBenef>ASSOCIACAO MATOGROSSENSE DOS TRANSPORTADORES URBANOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>751.203825</vlrBruto>
+          <vlrBaseIR>751.203825</vlrBaseIR>
+          <vlrIR>11.268057375</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>54850957000156</CNPJ_Benef>
+        <nmBenef>BUS EXPRESS LOGISTICA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.301098</vlrBruto>
+          <vlrBaseIR>1.301098</vlrBaseIR>
+          <vlrIR>0.01951647</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48555775000907</CNPJ_Benef>
+        <nmBenef>OBRA SOCIAL N S DA GLORIA FAZENDA DA ESPERANCA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>9.04593</vlrBruto>
+          <vlrBaseIR>9.04593</vlrBaseIR>
+          <vlrIR>0.13568895</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>10535645000182</CNPJ_Benef>
+        <nmBenef>A COMERCIAL TRANSPORTE E LOCACOES LTDA </nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2161.2</vlrBruto>
+          <vlrBaseIR>2161.2</vlrBaseIR>
+          <vlrIR>32.418</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26545534000197</CNPJ_Benef>
+        <nmBenef>ALESSANDRO GEMUS OLINTO</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>188.985</vlrBruto>
+          <vlrBaseIR>188.985</vlrBaseIR>
+          <vlrIR>2.834775</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>32523010000106</CNPJ_Benef>
+        <nmBenef>ALVIMAR DA SILVA PEREIRA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>11.741436</vlrBruto>
+          <vlrBaseIR>11.741436</vlrBaseIR>
+          <vlrIR>0.17612154</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>42810671000168</CNPJ_Benef>
+        <nmBenef>SUPERMERCADO OPCAO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2615.475459</vlrBruto>
+          <vlrBaseIR>2615.475459</vlrBaseIR>
+          <vlrIR>39.23213188499999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>4239328000116</CNPJ_Benef>
+        <nmBenef>PERNAMBUCO CONSTRUTORA EMPREENDIMENTOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>294.0</vlrBruto>
+          <vlrBaseIR>294.0</vlrBaseIR>
+          <vlrIR>4.41</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>41911908000134</CNPJ_Benef>
+        <nmBenef>M. M. VALE DOCERIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.15497</vlrBruto>
+          <vlrBaseIR>1.15497</vlrBaseIR>
+          <vlrIR>0.01732455</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>28674868000196</CNPJ_Benef>
+        <nmBenef>MARLENE DE SOUZA MURTHA 87706180700</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.254</vlrBruto>
+          <vlrBaseIR>0.254</vlrBaseIR>
+          <vlrIR>0.00381</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>5384914000117</CNPJ_Benef>
+        <nmBenef>Vr System Tecnologia Eireli</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>4.198568</vlrBruto>
+          <vlrBaseIR>4.198568</vlrBaseIR>
+          <vlrIR>0.06297852</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>36174333000184</CNPJ_Benef>
+        <nmBenef>ABREU PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>19455232000162</CNPJ_Benef>
+        <nmBenef>ALFA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>57.82</vlrBruto>
+          <vlrBaseIR>57.82</vlrBaseIR>
+          <vlrIR>0.8673</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>22668277000120</CNPJ_Benef>
+        <nmBenef>BENJAMIM PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>87.18</vlrBruto>
+          <vlrBaseIR>87.18</vlrBaseIR>
+          <vlrIR>1.3077</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>29122735000170</CNPJ_Benef>
+        <nmBenef>CALDAS PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>46.85</vlrBruto>
+          <vlrBaseIR>46.85</vlrBaseIR>
+          <vlrIR>0.70275</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26107097000120</CNPJ_Benef>
+        <nmBenef>CLINICA MEDICA DR PRA VOCE LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>23.424</vlrBruto>
+          <vlrBaseIR>23.424</vlrBaseIR>
+          <vlrIR>0.35136</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48649159000168</CNPJ_Benef>
+        <nmBenef>COMERCIAL DE PISOS E REVESTIMENTOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>85.17187</vlrBruto>
+          <vlrBaseIR>85.17187</vlrBaseIR>
+          <vlrIR>1.27757805</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>5941045000184</CNPJ_Benef>
+        <nmBenef>DI FESTA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>170.63</vlrBruto>
+          <vlrBaseIR>170.63</vlrBaseIR>
+          <vlrIR>2.55945</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21106697000150</CNPJ_Benef>
+        <nmBenef>FEST SHOW PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>47.99</vlrBruto>
+          <vlrBaseIR>47.99</vlrBaseIR>
+          <vlrIR>0.71985</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33128670000147</CNPJ_Benef>
+        <nmBenef>GIFT PRODUTOS PARA FESTA EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>124.162134</vlrBruto>
+          <vlrBaseIR>124.162134</vlrBaseIR>
+          <vlrIR>1.86243201</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44639548000151</CNPJ_Benef>
+        <nmBenef>GUANABARA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>35.69</vlrBruto>
+          <vlrBaseIR>35.69</vlrBaseIR>
+          <vlrIR>0.53535</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>20046092000158</CNPJ_Benef>
+        <nmBenef>HERMINIO PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>35.93</vlrBruto>
+          <vlrBaseIR>35.93</vlrBaseIR>
+          <vlrIR>0.5389499999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>11866974000179</CNPJ_Benef>
+        <nmBenef>HIPER FESTAS PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>59.75</vlrBruto>
+          <vlrBaseIR>59.75</vlrBaseIR>
+          <vlrIR>0.89625</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44258313000110</CNPJ_Benef>
+        <nmBenef>JM PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>71.8</vlrBruto>
+          <vlrBaseIR>71.8</vlrBaseIR>
+          <vlrIR>1.077</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21681767000101</CNPJ_Benef>
+        <nmBenef>JUDA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>708.88</vlrBruto>
+          <vlrBaseIR>708.88</vlrBaseIR>
+          <vlrIR>10.6332</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21681767000365</CNPJ_Benef>
+        <nmBenef>JUDA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>184.19</vlrBruto>
+          <vlrBaseIR>184.19</vlrBaseIR>
+          <vlrIR>2.76285</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>21681767000527</CNPJ_Benef>
+        <nmBenef>JUDA PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>63.14</vlrBruto>
+          <vlrBaseIR>63.14</vlrBaseIR>
+          <vlrIR>0.9470999999999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>40171060000191</CNPJ_Benef>
+        <nmBenef>LUMIONS ENGENHARIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.0</vlrBruto>
+          <vlrBaseIR>0.0</vlrBaseIR>
+          <vlrIR>0.0</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>35418772000122</CNPJ_Benef>
+        <nmBenef>OCEAN PRODUTOS PARA FESTA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>30.328955</vlrBruto>
+          <vlrBaseIR>30.328955</vlrBaseIR>
+          <vlrIR>0.454934325</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48993499000101</CNPJ_Benef>
+        <nmBenef>OESTE PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>78.003163</vlrBruto>
+          <vlrBaseIR>78.003163</vlrBaseIR>
+          <vlrIR>1.170047445</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>26076329000120</CNPJ_Benef>
+        <nmBenef>PORTAL PISOS E ACABAMENTOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>453.89964</vlrBruto>
+          <vlrBaseIR>453.89964</vlrBaseIR>
+          <vlrIR>6.8084946</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>18248671000131</CNPJ_Benef>
+        <nmBenef>PRIME PRODUTOS PARA FESTAS EIRELI</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>659.9278</vlrBruto>
+          <vlrBaseIR>659.9278</vlrBaseIR>
+          <vlrIR>9.898917</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>18248671000565</CNPJ_Benef>
+        <nmBenef>PRIME PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>139.094429</vlrBruto>
+          <vlrBaseIR>139.094429</vlrBaseIR>
+          <vlrIR>2.086416435</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>27250630000170</CNPJ_Benef>
+        <nmBenef>PROSPER PRODUTOS PARA FESTAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>37.126317</vlrBruto>
+          <vlrBaseIR>37.126317</vlrBaseIR>
+          <vlrIR>0.556894755</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>56823903000127</CNPJ_Benef>
+        <nmBenef>ZABLIM DISTRIBUIDORA DE PRODUTOS AROMATIZANTES LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>2.238864</vlrBruto>
+          <vlrBaseIR>2.238864</vlrBaseIR>
+          <vlrIR>0.03358296</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>9432196000168</CNPJ_Benef>
+        <nmBenef>HOSPITAL DE ORTOPEDIA E FRATURAS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.546</vlrBruto>
+          <vlrBaseIR>0.546</vlrBaseIR>
+          <vlrIR>0.008190000000000001</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48058437000102</CNPJ_Benef>
+        <nmBenef>IDEIA FITNESS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>13.92345</vlrBruto>
+          <vlrBaseIR>13.92345</vlrBaseIR>
+          <vlrIR>0.20885175</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33978553000172</CNPJ_Benef>
+        <nmBenef>KALIANE MATOS ARAUJO OTORRINOLARINGOLOGIA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>8.2994</vlrBruto>
+          <vlrBaseIR>8.2994</vlrBaseIR>
+          <vlrIR>0.124491</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>2737676000198</CNPJ_Benef>
+        <nmBenef>REGINALDO FUJITA - OUVIDO, NARIZ E GARGANTA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>8.2538</vlrBruto>
+          <vlrBaseIR>8.2538</vlrBaseIR>
+          <vlrIR>0.123807</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>44759106000149</CNPJ_Benef>
+        <nmBenef>44.759.106 WALCI AZEVEDO DE SANTANA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>23.46691</vlrBruto>
+          <vlrBaseIR>23.46691</vlrBaseIR>
+          <vlrIR>0.3520036499999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>47001811000170</CNPJ_Benef>
+        <nmBenef>47.001.811 SAULO NEPOMUCENO DE SANTANA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>57.85805</vlrBruto>
+          <vlrBaseIR>57.85805</vlrBaseIR>
+          <vlrIR>0.8678707499999999</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>35319760000140</CNPJ_Benef>
+        <nmBenef>CARLOS MAGNO CRUZ DA ROCHA 08654953780</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>38.258434</vlrBruto>
+          <vlrBaseIR>38.258434</vlrBaseIR>
+          <vlrIR>0.57387651</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>45982685000157</CNPJ_Benef>
+        <nmBenef>J CARMO OLIVEIRA COMERCIAL DE ALIMENTOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>0.002632</vlrBruto>
+          <vlrBaseIR>0.002632</vlrBaseIR>
+          <vlrIR>3.947999999999999e-05</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>48765206000139</CNPJ_Benef>
+        <nmBenef>LFA PANIFICADORA LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>1.934012</vlrBruto>
+          <vlrBaseIR>1.934012</vlrBaseIR>
+          <vlrIR>0.02901018</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>7154977000102</CNPJ_Benef>
+        <nmBenef>MARIA FRANCISCA MUNIZ LEMOS</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>38.895045</vlrBruto>
+          <vlrBaseIR>38.895045</vlrBaseIR>
+          <vlrIR>0.583425675</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>33213908000132</CNPJ_Benef>
+        <nmBenef>MERCADO COSTA AZUL LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>116.962398</vlrBruto>
+          <vlrBaseIR>116.962398</vlrBaseIR>
+          <vlrIR>1.75443597</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>57620810000168</CNPJ_Benef>
+        <nmBenef>RENAN SUPERMERCADO LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>43.094385</vlrBruto>
+          <vlrBaseIR>43.094385</vlrBaseIR>
+          <vlrIR>0.646415775</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+    <infoPgto>
+      <ideEstab>
+        <tpInscEstab>1</tpInscEstab>
+        <nrInscEstab>nan</nrInscEstab>
+      </ideEstab>
+      <ideBenef>
+        <CNPJ_Benef>45807274000125</CNPJ_Benef>
+        <nmBenef>RODRIGO S CAMPOS LTDA</nmBenef>
+        <infoRend>
+          <tpRend>1503</tpRend>
+          <descRend>COMISSÃO ADMINISTRAÇÃO DE CARTÕES</descRend>
+          <vlrBruto>22.243548</vlrBruto>
+          <vlrBaseIR>22.243548</vlrBaseIR>
+          <vlrIR>0.33365322</vlrIR>
+        </infoRend>
+      </ideBenef>
+    </infoPgto>
+  </evt4010>
+</Reinf>
