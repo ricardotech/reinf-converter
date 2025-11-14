@@ -21,6 +21,8 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { ColumnMapper } from "@/components/column-mapper";
+import { XMLPreview } from "@/components/xml-preview";
 
 type ConversionSummary = {
   fileName: string;
@@ -30,13 +32,15 @@ type ConversionSummary = {
   columns: string[];
 };
 
-type Status = "idle" | "uploading" | "success" | "error";
+type Status = "idle" | "extracting" | "ready" | "uploading" | "success" | "error";
 
 const statusCopy: Record<Status, string> = {
-  idle: "Select a spreadsheet to start the conversion.",
-  uploading: "Uploading and parsing workbook...",
-  success: "Workbook converted. Review and use the XML payload below.",
-  error: "We could not convert the spreadsheet. Check the details and try again.",
+  idle: "Selecione uma planilha para iniciar a conversão.",
+  extracting: "Extraindo colunas da planilha...",
+  ready: "Configure os nomes das tags XML e clique em Converter.",
+  uploading: "Enviando e processando planilha...",
+  success: "Planilha convertida. Revise e use o XML abaixo.",
+  error: "Não foi possível converter a planilha. Verifique os detalhes e tente novamente.",
 };
 
 const MAX_FILE_SIZE_MB = 5;
@@ -50,16 +54,20 @@ const formatBytes = (size: number) => {
 const StatusBadge = ({ status }: { status: Status }) => {
   const colorMap: Record<Status, string> = {
     idle: "bg-muted text-muted-foreground",
+    extracting: "bg-blue-100 text-blue-700 dark:bg-blue-500/10 dark:text-blue-200",
+    ready: "bg-purple-100 text-purple-700 dark:bg-purple-500/10 dark:text-purple-200",
     uploading: "bg-amber-100 text-amber-700 dark:bg-amber-500/10 dark:text-amber-200",
     success: "bg-emerald-100 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300",
     error: "bg-destructive/10 text-destructive",
   };
 
   const labelMap: Record<Status, string> = {
-    idle: "Idle",
-    uploading: "Processing",
-    success: "Ready",
-    error: "Attention",
+    idle: "Inativo",
+    extracting: "Analisando",
+    ready: "Pronto",
+    uploading: "Processando",
+    success: "Concluído",
+    error: "Atenção",
   };
 
   return (
@@ -75,6 +83,10 @@ export default function Home() {
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState<string>(statusCopy.idle);
   const [summary, setSummary] = useState<ConversionSummary | null>(null);
+  const [columns, setColumns] = useState<string[]>([]);
+  const [sanitizedColumns, setSanitizedColumns] = useState<Record<string, string>>({});
+  const [columnMapping, setColumnMapping] = useState<Record<string, string>>({});
+  const [showMapper, setShowMapper] = useState(false);
 
   const fileInsights = useMemo(() => {
     if (!file) return null;
@@ -91,9 +103,13 @@ export default function Home() {
     setSummary(null);
     setStatus("idle");
     setMessage(statusCopy.idle);
+    setColumns([]);
+    setSanitizedColumns({});
+    setColumnMapping({});
+    setShowMapper(false);
   }, []);
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const nextFile = event.target.files?.[0];
 
     if (!nextFile) {
@@ -104,8 +120,36 @@ export default function Home() {
     setFile(nextFile);
     setXml("");
     setSummary(null);
-    setStatus("idle");
-    setMessage(`Ready to convert "${nextFile.name}".`);
+    setStatus("extracting");
+    setMessage(statusCopy.extracting);
+
+    // Extract columns from the file
+    const formData = new FormData();
+    formData.append("file", nextFile);
+
+    try {
+      const response = await fetch("/api/extract-columns", {
+        method: "POST",
+        body: formData,
+      });
+      const payload = await response.json();
+
+      if (!response.ok) {
+        throw new Error(payload?.error || "Não foi possível extrair colunas.");
+      }
+
+      setColumns(payload.columns);
+      setSanitizedColumns(payload.sanitizedColumns);
+      setColumnMapping(payload.sanitizedColumns); // Initialize with sanitized values
+      setShowMapper(true);
+      setStatus("ready");
+      setMessage(statusCopy.ready);
+    } catch (error) {
+      console.error(error);
+      setStatus("error");
+      setMessage(error instanceof Error ? error.message : "Erro ao extrair colunas.");
+      setShowMapper(false);
+    }
   };
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -113,7 +157,7 @@ export default function Home() {
 
     if (!file) {
       setStatus("error");
-      setMessage("Please choose a spreadsheet before requesting a conversion.");
+      setMessage("Por favor, escolha uma planilha antes de solicitar a conversão.");
       return;
     }
 
@@ -123,6 +167,11 @@ export default function Home() {
     const formData = new FormData();
     formData.append("file", file);
 
+    // Include column mapping if configured
+    if (Object.keys(columnMapping).length > 0) {
+      formData.append("mapping", JSON.stringify(columnMapping));
+    }
+
     try {
       const response = await fetch("/api/xls-to-xml", {
         method: "POST",
@@ -131,7 +180,7 @@ export default function Home() {
       const payload = await response.json();
 
       if (!response.ok) {
-        throw new Error(payload?.error || "Unable to convert this spreadsheet.");
+        throw new Error(payload?.error || "Não foi possível converter esta planilha.");
       }
 
       setXml(payload.xml);
@@ -161,7 +210,7 @@ export default function Home() {
   const handleCopy = async () => {
     if (!xml) return;
     await navigator.clipboard.writeText(xml);
-    setMessage("XML copied to the clipboard.");
+    setMessage("XML copiado para a área de transferência.");
   };
 
   return (
@@ -174,12 +223,12 @@ export default function Home() {
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-muted-foreground">XLS + XLSX -&gt; XML</p>
             <h1 className="mt-2 text-3xl font-semibold leading-tight sm:text-4xl">
-              Minimal importer for operational file drops
+              Importador minimalista para arquivos operacionais
             </h1>
           </div>
           <p className="text-base text-muted-foreground sm:text-lg">
-            Upload a spreadsheet, let the Next.js API transform it into XML, and preview the result instantly--no login, no persistence.
-            Built with shadcn/ui defaults so it is easy to extend across agents, pipelines, or R Jina AI orchestrations.
+            Carregue uma planilha, deixe a API Next.js transformá-la em XML e visualize o resultado instantaneamente--sem login, sem persistência.
+            Construído com padrões shadcn/ui para facilitar a extensão em agentes, pipelines ou orquestrações R Jina AI.
           </p>
           <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
             <StatusBadge status={status} />
@@ -187,31 +236,31 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_1.25fr]">
+        <section className={`grid grid-cols-1 gap-6 ${showMapper ? "lg:grid-cols-[1fr_1fr_1.25fr]" : "lg:grid-cols-[1fr_1.25fr]"}`}>
           <Card>
             <form className="flex h-full flex-col gap-6" onSubmit={handleSubmit}>
               <CardHeader className="gap-6">
                 <div>
-                  <CardTitle>Spreadsheet intake</CardTitle>
+                  <CardTitle>Entrada de planilha</CardTitle>
                   <CardDescription>
-                    Accepts .xls or .xlsx files up to {MAX_FILE_SIZE_MB}MB. Data remains within this
-                    browser tab--perfect for non-login dropboxes.
+                    Aceita arquivos .xls ou .xlsx até {MAX_FILE_SIZE_MB}MB. Os dados permanecem nesta
+                    aba do navegador--perfeito para dropboxes sem login.
                   </CardDescription>
                 </div>
               </CardHeader>
               <CardContent className="flex flex-1 flex-col gap-6">
                 <div className="space-y-3">
-                  <Label htmlFor="file">Source file</Label>
+                  <Label htmlFor="file">Arquivo de origem</Label>
                   <Input
                     id="file"
                     name="file"
                     type="file"
                     accept=".xls,.xlsx"
                     onChange={handleFileChange}
-                    disabled={status === "uploading"}
+                    disabled={status === "uploading" || status === "extracting"}
                   />
                   <p className="text-xs text-muted-foreground">
-                    Only local parsing--no files are persisted on the server, matching data-min safety guidelines from the R Jina AI knowledge base.
+                    Apenas processamento local--nenhum arquivo é persistido no servidor, seguindo as diretrizes de segurança de dados mínimos da base de conhecimento R Jina AI.
                   </p>
                 </div>
 
@@ -220,11 +269,11 @@ export default function Home() {
                     <p className="text-sm font-medium text-foreground">{fileInsights.name}</p>
                     <dl className="mt-3 grid grid-cols-2 gap-2 text-muted-foreground">
                       <div>
-                        <dt className="text-xs uppercase tracking-wide">Size</dt>
+                        <dt className="text-xs uppercase tracking-wide">Tamanho</dt>
                         <dd>{fileInsights.size}</dd>
                       </div>
                       <div>
-                        <dt className="text-xs uppercase tracking-wide">Updated</dt>
+                        <dt className="text-xs uppercase tracking-wide">Atualizado</dt>
                         <dd>{fileInsights.lastModified}</dd>
                       </div>
                     </dl>
@@ -232,35 +281,56 @@ export default function Home() {
                 )}
               </CardContent>
               <CardFooter className="flex flex-col gap-3 sm:flex-row">
-                <Button type="submit" className="flex-1 gap-2" disabled={!file || status === "uploading"}>
+                <Button
+                  type="submit"
+                  className="flex-1 gap-2"
+                  disabled={!file || status === "uploading" || status === "extracting" || status === "idle"}
+                >
                   {status === "uploading" ? (
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                  ) : status === "extracting" ? (
                     <Loader2 className="h-4 w-4 animate-spin" />
                   ) : (
                     <ArrowRight className="h-4 w-4" />
                   )}
-                  Convert to XML
+                  Converter para XML
                 </Button>
                 <Button
                   type="button"
                   variant="outline"
                   className="flex-1 gap-2"
                   onClick={reset}
-                  disabled={status === "uploading"}
+                  disabled={status === "uploading" || status === "extracting"}
                 >
                   <RefreshCcw className="h-4 w-4" />
-                  Reset
+                  Resetar
                 </Button>
               </CardFooter>
             </form>
           </Card>
 
+          {showMapper && (
+            <div className="flex flex-col gap-6">
+              <ColumnMapper
+                columns={columns}
+                sanitizedColumns={sanitizedColumns}
+                onMappingChange={setColumnMapping}
+              />
+              <XMLPreview
+                columns={columns}
+                mapping={columnMapping}
+                fileName={file?.name || "workbook.xlsx"}
+              />
+            </div>
+          )}
+
           <Card className="flex h-full flex-col">
             <CardHeader className="gap-2">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <CardTitle>API response preview</CardTitle>
+                  <CardTitle>Pré-visualização da resposta da API</CardTitle>
                   <CardDescription>
-                    XML payload streamed directly from <code>/api/xls-to-xml</code>.
+                    Payload XML transmitido diretamente de <code>/api/xls-to-xml</code>.
                   </CardDescription>
                 </div>
                 <StatusBadge status={status} />
@@ -272,21 +342,21 @@ export default function Home() {
                   <p className="font-medium text-foreground">{summary.sheetName}</p>
                   <dl className="mt-3 grid gap-2 text-muted-foreground sm:grid-cols-2">
                     <div>
-                      <dt className="text-xs uppercase tracking-wide">File</dt>
+                      <dt className="text-xs uppercase tracking-wide">Arquivo</dt>
                       <dd>{summary.fileName}</dd>
                     </div>
                     <div>
-                      <dt className="text-xs uppercase tracking-wide">Rows</dt>
+                      <dt className="text-xs uppercase tracking-wide">Linhas</dt>
                       <dd>{summary.rowCount}</dd>
                     </div>
                     <div>
-                      <dt className="text-xs uppercase tracking-wide">Columns</dt>
+                      <dt className="text-xs uppercase tracking-wide">Colunas</dt>
                       <dd>{summary.columnCount}</dd>
                     </div>
                   </dl>
                   {summary.columns.length > 0 && (
                     <div className="mt-3">
-                      <p className="text-xs uppercase tracking-wide text-muted-foreground">Fields</p>
+                      <p className="text-xs uppercase tracking-wide text-muted-foreground">Campos</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {summary.columns.slice(0, 8).map((column) => (
                           <span
@@ -298,7 +368,7 @@ export default function Home() {
                         ))}
                         {summary.columns.length > 8 && (
                           <span className="text-xs text-muted-foreground">
-                            +{summary.columns.length - 8} more
+                            +{summary.columns.length - 8} mais
                           </span>
                         )}
                       </div>
@@ -307,19 +377,19 @@ export default function Home() {
                 </div>
               ) : (
                 <p className="rounded-xl border border-dashed bg-muted/20 p-4 text-sm text-muted-foreground">
-                  Converted XML will appear here once you upload a workbook.
+                  O XML convertido aparecerá aqui assim que você enviar uma planilha.
                 </p>
               )}
 
-              <Textarea value={xml} readOnly placeholder="<xml />" className="min-h-[280px] font-mono text-sm" />
+              <Textarea value={xml} readOnly placeholder="<xml />" className="max-h-[280px] min-h-[280px] font-mono text-sm" />
             </CardContent>
             <CardFooter className="flex flex-col gap-3 sm:flex-row">
               <Button type="button" variant="secondary" onClick={handleCopy} disabled={!xml} className="flex-1 gap-2">
-                Copy XML
+                Copiar XML
               </Button>
               <Button type="button" onClick={handleDownload} disabled={!xml} className="flex-1 gap-2">
                 <Download className="h-4 w-4" />
-                Download
+                Baixar
               </Button>
             </CardFooter>
           </Card>
@@ -327,24 +397,24 @@ export default function Home() {
 
         <section className="grid gap-4 rounded-2xl border bg-card/50 p-6 text-sm text-muted-foreground lg:grid-cols-3">
           <div>
-            <p className="text-xs uppercase tracking-wide">API strategy</p>
+            <p className="text-xs uppercase tracking-wide">Estratégia da API</p>
             <p className="mt-2 text-foreground">
-              Request hits <code>POST /api/xls-to-xml</code>, which sanitizes the workbook, normalizes column names, and emits XML via{" "}
+              A requisição acessa <code>POST /api/xls-to-xml</code>, que sanitiza a planilha, normaliza os nomes das colunas e emite XML via{" "}
               <code>xmlbuilder2</code>.
             </p>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-wide">Excel coverage</p>
+            <p className="text-xs uppercase tracking-wide">Cobertura Excel</p>
             <p className="mt-2 text-foreground">
-              XLS and XLSX files up to {MAX_FILE_SIZE_MB}MB with blank row filtering. Dates are converted into ISO 8601 so downstream automations
-              stay deterministic.
+              Arquivos XLS e XLSX até {MAX_FILE_SIZE_MB}MB com filtragem de linhas em branco. Datas são convertidas para ISO 8601 para que automações downstream
+              permaneçam determinísticas.
             </p>
           </div>
           <div>
-            <p className="text-xs uppercase tracking-wide">UI baseline</p>
+            <p className="text-xs uppercase tracking-wide">Base da UI</p>
             <p className="mt-2 text-foreground">
-              Components are powered by shadcn/ui and Tailwind v4 tokens, keeping the surface minimal while matching the Next.js 16 starter
-              guidelines recommended by R Jina AI docs.
+              Os componentes são alimentados por shadcn/ui e tokens Tailwind v4, mantendo a superfície minimalista enquanto corresponde às diretrizes
+              iniciais do Next.js 16 recomendadas pela documentação R Jina AI.
             </p>
           </div>
         </section>

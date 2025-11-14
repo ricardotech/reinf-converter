@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { convertWorkbookToXml } from "@/lib/xls";
+import { convertWorkbookToXml, type ColumnMapping } from "@/lib/xls";
 
 const ACCEPTED_EXTENSIONS = new Set([".xls", ".xlsx"]);
 const ACCEPTED_MIME_TYPES = new Set([
@@ -54,7 +54,26 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const result = convertWorkbookToXml(await file.arrayBuffer(), file.name);
+    // Extract optional column mapping from form data
+    const mappingJson = formData.get("mapping");
+    let columnMapping: ColumnMapping | undefined;
+
+    if (mappingJson && typeof mappingJson === "string") {
+      try {
+        columnMapping = JSON.parse(mappingJson);
+      } catch (error) {
+        return NextResponse.json(
+          { error: "Invalid column mapping format" },
+          { status: 400 }
+        );
+      }
+    }
+
+    const result = convertWorkbookToXml(
+      await file.arrayBuffer(),
+      file.name,
+      columnMapping
+    );
 
     return NextResponse.json(result, { status: 200 });
   } catch (error) {
