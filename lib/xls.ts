@@ -51,6 +51,7 @@ export const convertWorkbookToXml = (
     type: "array",
     cellDates: true,
     cellStyles: false,
+    raw: true,
   });
 
   const sheetName = workbook.SheetNames[0];
@@ -62,7 +63,7 @@ export const convertWorkbookToXml = (
   const sheet = workbook.Sheets[sheetName];
   const rows = XLSX.utils.sheet_to_json<RowRecord>(sheet, {
     defval: "",
-    raw: false,
+    raw: true,
     blankrows: false,
   });
 
@@ -75,29 +76,72 @@ export const convertWorkbookToXml = (
   });
 
   const columns = Array.from(columnSet);
-  const root = create({ version: "1.0", encoding: "UTF-8" })
-    .ele("workbook", { source: fileName })
-    .ele("sheet", { name: sheetName });
 
-  rows.forEach((row, index) => {
-    const rowElement = root.ele("row", { index: index + 1 });
-    const localTagUsage = new Map<string, number>();
+  // Create Reinf XML structure
+  const root = create({ version: "1.0" });
+  const reinf = root.ele("Reinf");
+  const evt4010 = reinf.ele("evt4010");
 
-    Object.entries(row).forEach(([key, value]) => {
-      const normalizedKey = key?.trim() || "column";
-      const sanitized = sanitizeTagName(normalizedKey);
-      const currentCount = localTagUsage.get(sanitized) ?? 0;
-      localTagUsage.set(sanitized, currentCount + 1);
+  // Add ideEvento (event identification) - using first row or defaults
+  const ideEvento = evt4010.ele("ideEvento");
+  ideEvento.ele("indRetif").txt("1").up();
+  ideEvento.ele("perApur").txt("2025-01").up();
+  ideEvento.ele("tpAmb").txt("1").up();
+  ideEvento.ele("procEmi").txt("1").up();
+  ideEvento.ele("verProc").txt("1.0").up();
+  ideEvento.up();
 
-      const tagName = currentCount === 0 ? sanitized : `${sanitized}_${currentCount + 1}`;
+  // Add ideContri (contributor identification)
+  const ideContri = evt4010.ele("ideContri");
+  ideContri.ele("tpInsc").txt("1").up();
+  ideContri.ele("nrInsc").txt("nan").up();
+  ideContri.up();
 
-      rowElement.ele(tagName).txt(formatValue(value)).up();
-    });
+  // Add infoPgto for each row
+  rows.forEach((row) => {
+    const infoPgto = evt4010.ele("infoPgto");
 
-    rowElement.up();
+    // ideEstab (establishment identification)
+    const ideEstab = infoPgto.ele("ideEstab");
+    ideEstab.ele("tpInscEstab").txt("1").up();
+    ideEstab.ele("nrInscEstab").txt("nan").up();
+    ideEstab.up();
+
+    // ideBenef (beneficiary identification)
+    const ideBenef = infoPgto.ele("ideBenef");
+    const cnpj = row["CNPJ_Benef"] || row["CNPJ"] || "";
+    const nmBenef = row["nmBenef"] || row["Nome"] || "";
+
+    ideBenef.ele("CNPJ_Benef").txt(String(cnpj)).up();
+    ideBenef.ele("nmBenef").txt(String(nmBenef)).up();
+
+    // infoRend (income information)
+    const infoRend = ideBenef.ele("infoRend");
+    const tpRend = row["tpRend"] || "1503";
+    const descRend = row["descRend"] || "COMISSÃO ADMINISTRAÇÃO DE CARTÕES";
+    const vlrBruto = row["vlrBruto"] || row["Valor Bruto"] || 0;
+    const vlrBaseIR = row["vlrBaseIR"] || row["Base IR"] || vlrBruto;
+    const vlrIR = row["vlrIR"] || row["Valor IR"] || 0;
+
+    infoRend.ele("tpRend").txt(String(tpRend)).up();
+    infoRend.ele("descRend").txt(String(descRend)).up();
+    infoRend.ele("vlrBruto").txt(String(vlrBruto)).up();
+    infoRend.ele("vlrBaseIR").txt(String(vlrBaseIR)).up();
+    infoRend.ele("vlrIR").txt(String(vlrIR)).up();
+    infoRend.up();
+
+    ideBenef.up();
+    infoPgto.up();
   });
 
-  const xml = root.end({ prettyPrint: true });
+  evt4010.up();
+  reinf.up();
+
+  const xml = root.end({
+    prettyPrint: true,
+    indent: "  ",
+    newline: "\n"
+  });
 
   return {
     xml,
