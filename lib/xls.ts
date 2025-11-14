@@ -23,16 +23,6 @@ export type ValidationResult = {
 
 type RowRecord = Record<string, unknown>;
 
-const sanitizeTagName = (value: string) => {
-  const base = value
-    .trim()
-    .replace(/\s+/g, "_")
-    .replace(/[^A-Za-z0-9_.:-]/g, "")
-    .replace(/^[^A-Za-z_]+/, "");
-
-  return base.length > 0 ? base : "field";
-};
-
 export const validateXmlTagName = (tagName: string): ValidationResult => {
   if (!tagName || tagName.trim().length === 0) {
     return {
@@ -68,22 +58,6 @@ export const validateXmlTagName = (tagName: string): ValidationResult => {
   }
 
   return { isValid: true };
-};
-
-const formatValue = (value: unknown) => {
-  if (value === null || value === undefined) {
-    return "";
-  }
-
-  if (value instanceof Date) {
-    return value.toISOString();
-  }
-
-  if (typeof value === "number" && Number.isFinite(value)) {
-    return value.toString();
-  }
-
-  return String(value);
 };
 
 // Format number for Brazilian XML format (comma as decimal separator)
