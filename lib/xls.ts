@@ -1,12 +1,19 @@
 import { create } from "xmlbuilder2";
 import * as XLSX from "xlsx";
 
+export type EventType = "evt4010" | "evt4080";
+
 export type ConversionSummary = {
   fileName: string;
   sheetName: string;
   rowCount: number;
   columnCount: number;
   columns: string[];
+  eventType?: EventType;
+  stats?: {
+    totalFonts?: number;
+    totalInfoRec?: number;
+  };
 };
 
 export type ConversionPayload = {
@@ -138,6 +145,218 @@ const getColumnValue = (
   return "";
 };
 
+// Helper functions for R-4080 (evtRetRec)
+const toDigits = (value: unknown): string => {
+  if (value === null || value === undefined) return '';
+  return String(value).replace(/\D/g, '');
+};
+
+const toPerApur = (value: unknown): string => {
+  if (!value) return '';
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return `${value.getFullYear()}-${String(value.getMonth() + 1).padStart(2, '0')}`;
+  }
+  const str = String(value);
+  const match = str.match(/(\d{4})[-\/]?(\d{2})/);
+  if (match) {
+    return `${match[1]}-${match[2]}`;
+  }
+  return str;
+};
+
+const toNatRend = (value: unknown): string => {
+  if (value === null || value === undefined || value === '') return '';
+  const digits = String(value).replace(/\D/g, '');
+  return digits.padStart(5, '0');
+};
+
+const toDate = (value: unknown): string => {
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return `${value.getFullYear()}-${String(value.getMonth() + 1).padStart(2, '0')}-${String(value.getDate()).padStart(2, '0')}`;
+  }
+  const str = String(value);
+  const match = str.match(/(\d{4})[-\/]?(\d{2})[-\/]?(\d{2})/);
+  if (match) {
+    return `${match[1]}-${match[2]}-${match[3]}`;
+  }
+  throw new Error(`Não foi possível interpretar a data de recebimento: ${value}`);
+};
+
+const toMoney = (value: unknown): string => {
+  const num = Number(value) || 0;
+  return num.toFixed(2);
+};
+
+// R-4080 (evtRetRec) conversion
+const convertWorkbookToR4080Xml = (
+  buffer: ArrayBuffer,
+  fileName: string,
+  columnMapping?: ColumnMapping
+): ConversionPayload => {
+  const data = new Uint8Array(buffer);
+  const workbook = XLSX.read(data, {
+    type: "array",
+    cellDates: true,
+    cellStyles: false,
+    raw: true,
+  });
+
+  const sheetName = workbook.SheetNames[0];
+
+  if (!sheetName) {
+    throw new Error("A planilha não contém abas.");
+  }
+
+  const sheet = workbook.Sheets[sheetName];
+  const rows = XLSX.utils.sheet_to_json<RowRecord>(sheet, {
+    defval: "",
+    raw: true,
+    blankrows: false,
+  });
+
+  if (!rows.length) {
+    throw new Error("Planilha vazia.");
+  }
+
+  const columnSet = new Set<string>();
+  rows.forEach((row) => {
+    Object.keys(row).forEach((key) => {
+      const normalizedKey = key?.trim() || "column";
+      columnSet.add(normalizedKey);
+    });
+  });
+  const columns = Array.from(columnSet);
+
+  // Extract metadata from first row
+  const firstRow = rows[0];
+  const perApur = toPerApur(firstRow['Período de apuração'] || firstRow['Periodo']);
+  const estabCnpj = toDigits(firstRow['CNPJ do Estabelecimento']);
+
+  if (estabCnpj.length !== 14) {
+    throw new Error('CNPJ do estabelecimento inválido.');
+  }
+
+  const contribRaiz = estabCnpj.slice(0, 8);
+
+  // Group data: ideFont -> ideRend -> infoRec (by date)
+  const grouped = new Map<string, Map<string, Map<string, { vlrBruto: number; vlrBaseIR: number; vlrIR: number }>>>();
+
+  rows.forEach((row, index) => {
+    const fontCnpj = toDigits(row['CNPJ da fonte pagadora']);
+    if (fontCnpj.length !== 14) {
+      console.warn(`Linha ${index + 2}: CNPJ da fonte pagadora inválido, ignorado.`);
+      return;
+    }
+
+    const natRend = toNatRend(row['Nat Rend Rec p Bem']);
+    if (!natRend) {
+      console.warn(`Linha ${index + 2}: natureza de rendimento ausente, ignorada.`);
+      return;
+    }
+
+    const dtFG = toDate(row['Data do recebimento']);
+    const vlrBruto = Number(row['Valor bruto']) || 0;
+    const vlrBaseIR = Number(row['Valor da base de cálculo do IRRF']) || 0;
+    const vlrIR = Number(row['Valor do IRRF']) || 0;
+
+    if (!grouped.has(fontCnpj)) {
+      grouped.set(fontCnpj, new Map());
+    }
+    const rendMap = grouped.get(fontCnpj)!;
+    if (!rendMap.has(natRend)) {
+      rendMap.set(natRend, new Map());
+    }
+    const recMap = rendMap.get(natRend)!;
+    if (!recMap.has(dtFG)) {
+      recMap.set(dtFG, { vlrBruto: 0, vlrBaseIR: 0, vlrIR: 0 });
+    }
+    const rec = recMap.get(dtFG)!;
+    rec.vlrBruto += vlrBruto;
+    rec.vlrBaseIR += vlrBaseIR;
+    rec.vlrIR += vlrIR;
+  });
+
+  // Build XML structure
+  const eventId = `ID${estabCnpj}${perApur.replace(/\D/g, '') || '0000'}00001`.slice(0, 36);
+  const root = create({ version: '1.0', encoding: 'UTF-8' });
+  const reinf = root.ele('Reinf');
+  const evt = reinf.ele('evtRetRec', { id: eventId });
+
+  // ideEvento
+  const ideEvento = evt.ele('ideEvento');
+  ideEvento.ele('indRetif').txt('1');
+  ideEvento.ele('perApur').txt(perApur);
+  ideEvento.ele('tpAmb').txt('1');
+  ideEvento.ele('procEmi').txt('1');
+  ideEvento.ele('verProc').txt('1.0');
+  ideEvento.up();
+
+  // ideContri
+  const ideContri = evt.ele('ideContri');
+  ideContri.ele('tpInsc').txt('1');
+  ideContri.ele('nrInsc').txt(contribRaiz);
+  ideContri.up();
+
+  // ideEstab
+  const ideEstab = evt.ele('ideEstab');
+  ideEstab.ele('tpInscEstab').txt('1');
+  ideEstab.ele('nrInscEstab').txt(estabCnpj);
+
+  // Nested structure: ideFont -> ideRend -> infoRec
+  for (const [fontCnpj, rendMap] of grouped) {
+    const ideFont = ideEstab.ele('ideFont');
+    ideFont.ele('cnpjFont').txt(fontCnpj);
+
+    for (const [natRend, recMap] of rendMap) {
+      const ideRend = ideFont.ele('ideRend');
+      ideRend.ele('natRend').txt(natRend);
+
+      for (const [dtFG, values] of Array.from(recMap.entries()).sort(([a], [b]) => a.localeCompare(b))) {
+        const infoRec = ideRend.ele('infoRec');
+        infoRec.ele('dtFG').txt(dtFG);
+        infoRec.ele('vlrBruto').txt(toMoney(values.vlrBruto));
+        infoRec.ele('vlrBaseIR').txt(toMoney(values.vlrBaseIR));
+        infoRec.ele('vlrIR').txt(toMoney(values.vlrIR));
+        infoRec.up();
+      }
+      ideRend.up();
+    }
+    ideFont.up();
+  }
+
+  ideEstab.up();
+  evt.up();
+  reinf.up();
+
+  const xml = root.end({ prettyPrint: true, indent: '  ', newline: '\n' });
+
+  // Calculate stats
+  const totalFonts = grouped.size;
+  let totalInfoRec = 0;
+  for (const rendMap of grouped.values()) {
+    for (const recMap of rendMap.values()) {
+      totalInfoRec += recMap.size;
+    }
+  }
+
+  return {
+    xml,
+    summary: {
+      fileName,
+      sheetName,
+      rowCount: rows.length,
+      columnCount: columns.length,
+      columns,
+      eventType: "evt4080",
+      stats: {
+        totalFonts,
+        totalInfoRec,
+      },
+    },
+  };
+};
+
+// R-4010 (evt4010 / AutoRetencao) conversion
 export const convertWorkbookToXml = (
   buffer: ArrayBuffer,
   fileName: string,
@@ -301,6 +520,20 @@ export const convertWorkbookToXml = (
       rowCount: rows.length,
       columnCount: columns.length,
       columns,
+      eventType: "evt4010",
     },
   };
+};
+
+// Main converter function that routes to the correct event type
+export const convertWorkbookToXmlByType = (
+  buffer: ArrayBuffer,
+  fileName: string,
+  eventType: EventType = "evt4010",
+  columnMapping?: ColumnMapping
+): ConversionPayload => {
+  if (eventType === "evt4080") {
+    return convertWorkbookToR4080Xml(buffer, fileName, columnMapping);
+  }
+  return convertWorkbookToXml(buffer, fileName, columnMapping);
 };

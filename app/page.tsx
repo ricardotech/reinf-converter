@@ -23,6 +23,8 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { ColumnMapper } from "@/components/column-mapper";
 import { XMLPreview } from "@/components/xml-preview";
+import { CertificateUpload } from "@/components/certificate-upload";
+import { XmlTransmission } from "@/components/xml-transmission";
 
 type ConversionSummary = {
   fileName: string;
@@ -30,7 +32,14 @@ type ConversionSummary = {
   rowCount: number;
   columnCount: number;
   columns: string[];
+  eventType?: "evt4010" | "evt4080";
+  stats?: {
+    totalFonts?: number;
+    totalInfoRec?: number;
+  };
 };
+
+type EventType = "evt4010" | "evt4080";
 
 type Status = "idle" | "extracting" | "ready" | "uploading" | "success" | "error";
 
@@ -87,6 +96,7 @@ export default function Home() {
   const [sanitizedColumns, setSanitizedColumns] = useState<Record<string, string>>({});
   const [columnMapping, setColumnMapping] = useState<Record<string, string>>({});
   const [showMapper, setShowMapper] = useState(false);
+  const [eventType, setEventType] = useState<EventType>("evt4010");
 
   const fileInsights = useMemo(() => {
     if (!file) return null;
@@ -107,6 +117,7 @@ export default function Home() {
     setSanitizedColumns({});
     setColumnMapping({});
     setShowMapper(false);
+    setEventType("evt4010");
   }, []);
 
   const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -166,6 +177,7 @@ export default function Home() {
 
     const formData = new FormData();
     formData.append("file", file);
+    formData.append("eventType", eventType);
 
     // Include column mapping if configured
     if (Object.keys(columnMapping).length > 0) {
@@ -236,7 +248,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={`grid grid-cols-1 gap-6 ${showMapper ? "lg:grid-cols-[1fr_1fr_1.25fr]" : "lg:grid-cols-[1fr_1.25fr]"}`}>
+        <section className={`grid grid-cols-1 gap-6 ${showMapper && !xml ? "lg:grid-cols-[1fr_1fr_1.25fr]" : xml ? "lg:grid-cols-[1fr_1.25fr]" : "lg:grid-cols-[1fr_1.25fr]"}`}>
           <Card>
             <form className="flex h-full flex-col gap-6" onSubmit={handleSubmit}>
               <CardHeader className="gap-6">
@@ -261,6 +273,43 @@ export default function Home() {
                   />
                   <p className="text-xs text-muted-foreground">
                     Apenas processamento local--nenhum arquivo é persistido no servidor, seguindo as diretrizes de segurança de dados mínimos da base de conhecimento R Jina AI.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <Label htmlFor="eventType">Tipo de Evento EFD-Reinf</Label>
+                  <div className="flex gap-4">
+                    <label className="flex items-center gap-2 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="eventType"
+                        value="evt4010"
+                        checked={eventType === "evt4010"}
+                        onChange={(e) => setEventType(e.target.value as EventType)}
+                        disabled={status === "uploading" || status === "extracting"}
+                        className="h-4 w-4"
+                      />
+                      <span className="text-sm">
+                        <strong>R-4010</strong> (evt4010 - Retenção na Fonte)
+                      </span>
+                    </label>
+                    <label className="flex items-center gap-2 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="eventType"
+                        value="evt4080"
+                        checked={eventType === "evt4080"}
+                        onChange={(e) => setEventType(e.target.value as EventType)}
+                        disabled={status === "uploading" || status === "extracting"}
+                        className="h-4 w-4"
+                      />
+                      <span className="text-sm">
+                        <strong>R-4080</strong> (evtRetRec - Recebimentos)
+                      </span>
+                    </label>
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Selecione o tipo de evento EFD-Reinf que deseja gerar a partir da planilha.
                   </p>
                 </div>
 
@@ -339,7 +388,14 @@ export default function Home() {
             <CardContent className="flex flex-1 flex-col gap-4">
               {summary ? (
                 <div className="rounded-xl border bg-muted/40 p-4 text-sm">
-                  <p className="font-medium text-foreground">{summary.sheetName}</p>
+                  <div className="flex items-center justify-between">
+                    <p className="font-medium text-foreground">{summary.sheetName}</p>
+                    {summary.eventType && (
+                      <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                        {summary.eventType === "evt4010" ? "R-4010" : "R-4080"}
+                      </span>
+                    )}
+                  </div>
                   <dl className="mt-3 grid gap-2 text-muted-foreground sm:grid-cols-2">
                     <div>
                       <dt className="text-xs uppercase tracking-wide">Arquivo</dt>
@@ -353,6 +409,18 @@ export default function Home() {
                       <dt className="text-xs uppercase tracking-wide">Colunas</dt>
                       <dd>{summary.columnCount}</dd>
                     </div>
+                    {summary.eventType === "evt4080" && summary.stats && (
+                      <>
+                        <div>
+                          <dt className="text-xs uppercase tracking-wide">Fontes únicas</dt>
+                          <dd>{summary.stats.totalFonts || 0}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-xs uppercase tracking-wide">Registros infoRec</dt>
+                          <dd>{summary.stats.totalInfoRec || 0}</dd>
+                        </div>
+                      </>
+                    )}
                   </dl>
                   {summary.columns.length > 0 && (
                     <div className="mt-3">
@@ -394,6 +462,14 @@ export default function Home() {
             </CardFooter>
           </Card>
         </section>
+
+        {/* Certificate and Transmission Section */}
+        {status === "success" && xml && (
+          <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+            <CertificateUpload />
+            <XmlTransmission xml={xml} eventType={summary?.eventType || "evt4010"} />
+          </section>
+        )}
 
         <section className="grid gap-4 rounded-2xl border bg-card/50 p-6 text-sm text-muted-foreground lg:grid-cols-3">
           <div>

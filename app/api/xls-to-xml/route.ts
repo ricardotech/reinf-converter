@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { convertWorkbookToXml, type ColumnMapping } from "@/lib/xls";
+import { convertWorkbookToXmlByType, type ColumnMapping, type EventType } from "@/lib/xls";
 
 const ACCEPTED_EXTENSIONS = new Set([".xls", ".xlsx"]);
 const ACCEPTED_MIME_TYPES = new Set([
@@ -69,9 +69,25 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    const result = convertWorkbookToXml(
+    // Extract optional event type from form data
+    const eventTypeParam = formData.get("eventType");
+    let eventType: EventType = "evt4010"; // default to R-4010
+
+    if (eventTypeParam && typeof eventTypeParam === "string") {
+      if (eventTypeParam === "evt4010" || eventTypeParam === "evt4080") {
+        eventType = eventTypeParam;
+      } else {
+        return NextResponse.json(
+          { error: "Invalid event type. Must be 'evt4010' or 'evt4080'" },
+          { status: 400 }
+        );
+      }
+    }
+
+    const result = convertWorkbookToXmlByType(
       await file.arrayBuffer(),
       file.name,
+      eventType,
       columnMapping
     );
 
